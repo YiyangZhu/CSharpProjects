@@ -85,14 +85,25 @@ namespace MSCourse
 
 
 
-            Coffee coffee1 = new Coffee();
-            IBeverage coffee2 = new Coffee();
+            //Coffee coffee1 = new Coffee();
+            //IBeverage coffee2 = new Coffee();
 
-            IBeverage beverage = coffee1;
+            //IBeverage beverage = coffee1;
 
-            Coffee coffee3 = beverage as Coffee;
-            //OR
-            Coffee coffee4 = (Coffee)beverage;
+            //Coffee coffee3 = beverage as Coffee;
+            ////OR
+            //Coffee coffee4 = (Coffee)beverage;
+            //Console.WriteLine(coffee4.IsFairTrade);
+
+
+
+            var employee1 = new EmployeeTwo("Libby", 2000);
+            var employee2 = new TechnicalEmployee("Zaynah");
+            var employee3 = new BusinessEmployee("Winter");
+
+
+            Console.WriteLine(employee1.employeeStatus() + "..." + employee2.employeeStatus() + "..." + employee3.employeeStatus());
+
 
 
 
