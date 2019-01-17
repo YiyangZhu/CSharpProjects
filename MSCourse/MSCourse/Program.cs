@@ -80,8 +80,20 @@ namespace MSCourse
 
 
 
-            Manager leadManager = new Manager();
-            leadManager.Login();
+            //Manager leadManager = new Manager();
+            //leadManager.Login();
+
+
+
+            Coffee coffee1 = new Coffee();
+            IBeverage coffee2 = new Coffee();
+
+            IBeverage beverage = coffee1;
+
+            Coffee coffee3 = beverage as Coffee;
+            //OR
+            Coffee coffee4 = (Coffee)beverage;
+
 
 
         }
