@@ -81,8 +81,8 @@ namespace MSCourse
 
 
             Manager leadManager = new Manager();
+            leadManager.Login();
 
-            
 
         }
     }

@@ -12,5 +12,15 @@ namespace MSCourse
         }
 
         public string Department { get => department; set => department = value; }
+
+        public override void EatLunch()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Login()
+        {
+            Console.WriteLine("Manager Login");
+        }
     }
 }
