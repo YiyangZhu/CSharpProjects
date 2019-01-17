@@ -9,7 +9,6 @@ namespace MSCourse
 
         private static int instances = 0;
 
-
         public Car()
         {
             instances++;

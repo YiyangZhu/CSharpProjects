@@ -29,19 +29,71 @@ namespace MSCourse
 
             //Console.WriteLine(Math.Pow(2, 8));
 
-            var Car1 = new Car();
+            //var Car1 = new Car();
 
-            Car1.Color = "white";
-            Car1.Year = 2010;
-            Car1.Mileage = 11000;
+            //Car1.Color = "white";
+            //Car1.Year = 2010;
+            //Car1.Mileage = 11000;
 
-            Console.WriteLine($"This car is {Car1.Color},was built in {Car1.Year}, and has {Car1.Mileage} miles on it.");
+            //Console.WriteLine($"This car is {Car1.Color},was built in {Car1.Year}, and has {Car1.Mileage} miles on it.");
 
-            var Car2 = new Car("Red",2008);
+            //var Car2 = new Car("Red",2008);
 
-            Console.WriteLine($"This car is {Car2.Color}, and was built in {Car2.Year}");
+            //Console.WriteLine($"This car is {Car2.Color}, and was built in {Car2.Year}");
 
-            Console.WriteLine($"There are {Car.CountCars()} cars in total.");
+            //Console.WriteLine($"There are {Car.CountCars()} cars in total.");
+
+            var InformationTechnology = new UProgram("Information Technology");
+            var Student1 = new Student();
+            var Student2 = new Student();
+            var Student3 = new Student();
+
+            var ProgrammingWithCSharp = new Course("Programming With C#");
+
+            //array example: int[] scores = new int[] { 97, 92, 81, 60 };
+            //ProgrammingWithCSharp.Students = new Student[] {Student1,Student2,Student3 };
+
+            //list is better
+            //var list = new List<int>();
+            //list.Add(1);
+            //list.Add(2);
+            //list.Add(3);
+            ProgrammingWithCSharp.StudentList.Add(Student1);
+            ProgrammingWithCSharp.StudentList.Add(Student2);
+            ProgrammingWithCSharp.StudentList.Add(Student3);
+
+            var Teacher1 = new Teacher();
+            ProgrammingWithCSharp.TeacherList.Add(Teacher1);
+
+            var Degree1 = new Degree("Bachelor");
+            Degree1.CourseList.Add(ProgrammingWithCSharp);
+
+            InformationTechnology.DegreeList.Add(Degree1);
+
+            Console.WriteLine($"The name of the program is {InformationTechnology.ProgramName} and the degree it contains is {InformationTechnology.DegreeList[0].Type}.");
+
+            //foreach(Degree EachDegree in InformationTechnology.DegreeList)
+            //{
+            //    Console.Write(EachDegree.Type);
+            //}
+            //Console.WriteLine();
+
+            //list to array conversion example: MyClass[] myArray = list.ToArray();
+            //Course[] CourseArray = Degree1.CourseList.ToArray();
+            //string CourseToPrint = string.Join(",", (Object[])CourseArray);
+
+            //get the first one in a list
+            //string CourseName = Degree1.CourseList[0].CourseName;
+
+            Console.WriteLine($"The name of the course in the degree is {InformationTechnology.DegreeList[0].CourseList[0].CourseName}.");
+
+
+            Console.WriteLine($"There are {Student.StudentNumber()} students in the course.");
+
+
+
+
+
 
 
         }
