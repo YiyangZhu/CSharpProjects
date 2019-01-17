@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ModuleTwoLab1_Inheritance\" />
+    <Folder Include="ModuleTwo_Interface\" />
+  </ItemGroup>
 </Project>
