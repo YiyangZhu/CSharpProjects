@@ -101,8 +101,14 @@ namespace MSCourse
             var employee2 = new TechnicalEmployee("Zaynah");
             var employee3 = new BusinessEmployee("Winter");
 
-
             Console.WriteLine(employee1.employeeStatus() + "..." + employee2.employeeStatus() + "..." + employee3.employeeStatus());
+
+            var employee5 = new TechnicalEmployee("Emma");
+            var employee6 = new BusinessEmployee("John");
+
+
+            Console.WriteLine(employee5.employeeStatus() + "..." + employee6.employeeStatus());
+
 
 
 

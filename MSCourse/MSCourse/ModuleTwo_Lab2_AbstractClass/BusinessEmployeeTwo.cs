@@ -1,11 +1,11 @@
 ﻿using System;
 namespace MSCourse
 {
-    public class BusinessEmployee : EmployeeTwo
+    public class BusinessEmployeeTwo : EmployeeThree
     {
         public double bonusBudget = 1000;
 
-        public BusinessEmployee(String name) : base(name, 50000)
+        public BusinessEmployeeTwo(String name) : base(name, 50000)
         {
 
         }

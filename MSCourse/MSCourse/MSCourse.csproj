@@ -8,5 +8,6 @@
   <ItemGroup>
     <Folder Include="ModuleTwoLab1_Inheritance\" />
     <Folder Include="ModuleTwo_Interface\" />
+    <Folder Include="ModuleTwo_Lab2_AbstractClass\" />
   </ItemGroup>
 </Project>
