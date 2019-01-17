@@ -68,17 +68,21 @@ namespace MSCourse
 
             //Console.WriteLine($"There are {Student.StudentNumber()} students in the course.");
 
-            var anAnonymousObject = new { Name = "Tom", Age = 65 };
+            //var anAnonymousObject = new { Name = "Tom", Age = 65 };
 
-            Console.WriteLine("Name:{0} Age:{1}", anAnonymousObject.Name, anAnonymousObject.Age);
+            //Console.WriteLine("Name:{0} Age:{1}", anAnonymousObject.Name, anAnonymousObject.Age);
 
-            var secondAnonymousObject = new { Name = "Cathy", Age = 30 };
+            //var secondAnonymousObject = new { Name = "Cathy", Age = 30 };
 
-            secondAnonymousObject = anAnonymousObject;
+            //secondAnonymousObject = anAnonymousObject;
 
-            Console.WriteLine(secondAnonymousObject.Name + " " +secondAnonymousObject.Age);
+            //Console.WriteLine(secondAnonymousObject.Name + " " +secondAnonymousObject.Age);
 
 
+
+            Manager leadManager = new Manager();
+
+            
 
         }
     }
