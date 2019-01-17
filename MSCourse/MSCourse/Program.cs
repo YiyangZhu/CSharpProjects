@@ -43,56 +43,40 @@ namespace MSCourse
 
             //Console.WriteLine($"There are {Car.CountCars()} cars in total.");
 
-            var InformationTechnology = new UProgram("Information Technology");
-            var Student1 = new Student();
-            var Student2 = new Student();
-            var Student3 = new Student();
+            //var InformationTechnology = new UProgram("Information Technology");
+            //var Student1 = new Student();
+            //var Student2 = new Student();
+            //var Student3 = new Student();
 
-            var ProgrammingWithCSharp = new Course("Programming With C#");
+            //var ProgrammingWithCSharp = new Course("Programming With C#");
 
-            //array example: int[] scores = new int[] { 97, 92, 81, 60 };
-            //ProgrammingWithCSharp.Students = new Student[] {Student1,Student2,Student3 };
+            //ProgrammingWithCSharp.StudentList.Add(Student1);
+            //ProgrammingWithCSharp.StudentList.Add(Student2);
+            //ProgrammingWithCSharp.StudentList.Add(Student3);
 
-            //list is better
-            //var list = new List<int>();
-            //list.Add(1);
-            //list.Add(2);
-            //list.Add(3);
-            ProgrammingWithCSharp.StudentList.Add(Student1);
-            ProgrammingWithCSharp.StudentList.Add(Student2);
-            ProgrammingWithCSharp.StudentList.Add(Student3);
+            //var Teacher1 = new Teacher();
+            //ProgrammingWithCSharp.TeacherList.Add(Teacher1);
 
-            var Teacher1 = new Teacher();
-            ProgrammingWithCSharp.TeacherList.Add(Teacher1);
+            //var Degree1 = new Degree("Bachelor");
+            //Degree1.CourseList.Add(ProgrammingWithCSharp);
 
-            var Degree1 = new Degree("Bachelor");
-            Degree1.CourseList.Add(ProgrammingWithCSharp);
+            //InformationTechnology.DegreeList.Add(Degree1);
 
-            InformationTechnology.DegreeList.Add(Degree1);
+            //Console.WriteLine($"The name of the program is {InformationTechnology.ProgramName} and the degree it contains is {InformationTechnology.DegreeList[0].Type}.");
 
-            Console.WriteLine($"The name of the program is {InformationTechnology.ProgramName} and the degree it contains is {InformationTechnology.DegreeList[0].Type}.");
+            //Console.WriteLine($"The name of the course in the degree is {InformationTechnology.DegreeList[0].CourseList[0].CourseName}.");
 
-            //foreach(Degree EachDegree in InformationTechnology.DegreeList)
-            //{
-            //    Console.Write(EachDegree.Type);
-            //}
-            //Console.WriteLine();
+            //Console.WriteLine($"There are {Student.StudentNumber()} students in the course.");
 
-            //list to array conversion example: MyClass[] myArray = list.ToArray();
-            //Course[] CourseArray = Degree1.CourseList.ToArray();
-            //string CourseToPrint = string.Join(",", (Object[])CourseArray);
+            var anAnonymousObject = new { Name = "Tom", Age = 65 };
 
-            //get the first one in a list
-            //string CourseName = Degree1.CourseList[0].CourseName;
+            Console.WriteLine("Name:{0} Age:{1}", anAnonymousObject.Name, anAnonymousObject.Age);
 
-            Console.WriteLine($"The name of the course in the degree is {InformationTechnology.DegreeList[0].CourseList[0].CourseName}.");
+            var secondAnonymousObject = new { Name = "Cathy", Age = 30 };
 
+            secondAnonymousObject = anAnonymousObject;
 
-            Console.WriteLine($"There are {Student.StudentNumber()} students in the course.");
-
-
-
-
+            Console.WriteLine(secondAnonymousObject.Name + " " +secondAnonymousObject.Age);
 
 
 
