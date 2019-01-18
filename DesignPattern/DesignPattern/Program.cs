@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPattern.DecoratePattern;
 using DesignPattern.ObserverPattern;
 using DesignPattern.ObserverPatternPractice;
 using DesignPattern.StrategyPattern;
@@ -66,14 +67,23 @@ namespace DesignPattern
             //weatherData.SetMeasurements(82, 70, 29.2f);
             //weatherData.SetMeasurements(78, 90, 29.2f);
 
-            CompanyData Data = new CompanyData();
-            CurrentConditionsDisplayTwo currentConditionsDisplayTwo = new CurrentConditionsDisplayTwo(Data);
-            StatisticsDisplayTwo statisticsDisplayTwo = new StatisticsDisplayTwo(Data);
+            //CompanyData Data = new CompanyData();
+            //CurrentConditionsDisplayTwo currentConditionsDisplayTwo = new CurrentConditionsDisplayTwo(Data);
+            //StatisticsDisplayTwo statisticsDisplayTwo = new StatisticsDisplayTwo(Data);
 
-            Data.setData(11, 1);
-            Data.setData(23, 3);
-            Data.setData(19, 3);
+            //Data.setData(11, 1);
+            //Data.setData(23, 3);
+            //Data.setData(19, 3);
 
+
+
+            Beverage beverage = new Espresso();
+            Console.WriteLine(beverage.GetDescription() + " $" + beverage.Cost());
+
+            Beverage beverage2 = new HouseBlend();
+            beverage2 = new Soy(beverage2);
+            Beverage beverage3 = new Mocha(beverage2);
+            Console.WriteLine(beverage3.GetDescription() + " $" + beverage3.Cost());
         }
     }
 }
