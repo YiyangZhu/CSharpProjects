@@ -8,5 +8,10 @@
   <ItemGroup>
     <Folder Include="StrategyPattern\" />
     <Folder Include="StrategyPatternPractice\" />
+    <Folder Include="ObserverPattern\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ObserverPattern.cs" />
+    <Compile Remove="ObserverPattern\:Users:yiyangemmazhu:Projects:DesignPattern:DesignPattern:ObserverPattern:ForecaseDisplay.cs" />
   </ItemGroup>
 </Project>
