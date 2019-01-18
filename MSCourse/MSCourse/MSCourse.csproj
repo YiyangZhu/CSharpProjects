@@ -10,5 +10,6 @@
     <Folder Include="ModuleTwo_Interface\" />
     <Folder Include="ModuleTwo_Lab2_AbstractClass\" />
     <Folder Include="ModuleThree_ResourceAndMemoryManagement\" />
+    <Folder Include="ModuleThreeLab1\" />
   </ItemGroup>
 </Project>

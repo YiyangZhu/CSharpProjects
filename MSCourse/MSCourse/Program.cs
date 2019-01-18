@@ -1,5 +1,6 @@
 ﻿using System;
 using MSCourse.ModuleThree_ResourceAndMemoryManagement;
+using MSCourse.ModuleThreeLab1;
 
 namespace MSCourse
 {
@@ -114,28 +115,8 @@ namespace MSCourse
             //var word = new ManagedWord();
             //word.Dispose();
 
-            var word = default(ManagedWord);
-            try
-            {
-                word = new ManagedWord();
-
-            } catch
-            {
-
-            }
-            finally
-            {
-                if (word != null)
-                    word.Dispose();
-            }
-
-            using(var wordTwo = default(ManagedWord))
-            {
-
-            }
-
-
-
+            GCTest gcTest = new GCTest();
+            gcTest.GCDemo();
 
         }
     }
