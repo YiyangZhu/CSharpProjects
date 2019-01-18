@@ -1,4 +1,5 @@
 ﻿using System;
+using MSCourse.ModuleThree_ResourceAndMemoryManagement;
 
 namespace MSCourse
 {
@@ -97,18 +98,41 @@ namespace MSCourse
 
 
 
-            var employee1 = new EmployeeTwo("Libby", 2000);
-            var employee2 = new TechnicalEmployee("Zaynah");
-            var employee3 = new BusinessEmployee("Winter");
+            //var employee1 = new EmployeeTwo("Libby", 2000);
+            //var employee2 = new TechnicalEmployee("Zaynah");
+            //var employee3 = new BusinessEmployee("Winter");
 
-            Console.WriteLine(employee1.employeeStatus() + "..." + employee2.employeeStatus() + "..." + employee3.employeeStatus());
+            //Console.WriteLine(employee1.employeeStatus() + "..." + employee2.employeeStatus() + "..." + employee3.employeeStatus());
 
-            var employee5 = new TechnicalEmployee("Emma");
-            var employee6 = new BusinessEmployee("John");
+            //var employee5 = new TechnicalEmployee("Emma");
+            //var employee6 = new BusinessEmployee("John");
+
+            //Console.WriteLine(employee5.employeeStatus() + "..." + employee6.employeeStatus());
 
 
-            Console.WriteLine(employee5.employeeStatus() + "..." + employee6.employeeStatus());
 
+            //var word = new ManagedWord();
+            //word.Dispose();
+
+            var word = default(ManagedWord);
+            try
+            {
+                word = new ManagedWord();
+
+            } catch
+            {
+
+            }
+            finally
+            {
+                if (word != null)
+                    word.Dispose();
+            }
+
+            using(var wordTwo = default(ManagedWord))
+            {
+
+            }
 
 
 
