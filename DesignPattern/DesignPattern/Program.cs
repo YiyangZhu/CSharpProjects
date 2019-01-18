@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPattern.ObserverPattern;
+using DesignPattern.ObserverPatternPractice;
 using DesignPattern.StrategyPattern;
 using DesignPattern.StrategyPatternPractice;
 
@@ -55,15 +56,23 @@ namespace DesignPattern
 
 
 
-            //Weather Station
-            WeatherData weatherData = new WeatherData();
+            ////Weather Station
+            //WeatherData weatherData = new WeatherData();
 
-            CurrentConditonsDisplay currentConditonsDisplay = new CurrentConditonsDisplay(weatherData);
-            StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
+            //CurrentConditonsDisplay currentConditonsDisplay = new CurrentConditonsDisplay(weatherData);
+            //StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
 
-            weatherData.SetMeasurements(80, 65, 30.4f);
-            weatherData.SetMeasurements(82, 70, 29.2f);
-            weatherData.SetMeasurements(78, 90, 29.2f);
+            //weatherData.SetMeasurements(80, 65, 30.4f);
+            //weatherData.SetMeasurements(82, 70, 29.2f);
+            //weatherData.SetMeasurements(78, 90, 29.2f);
+
+            CompanyData Data = new CompanyData();
+            CurrentConditionsDisplayTwo currentConditionsDisplayTwo = new CurrentConditionsDisplayTwo(Data);
+            StatisticsDisplayTwo statisticsDisplayTwo = new StatisticsDisplayTwo(Data);
+
+            Data.setData(11, 1);
+            Data.setData(23, 3);
+            Data.setData(19, 3);
 
         }
     }

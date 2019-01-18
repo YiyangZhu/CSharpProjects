@@ -9,6 +9,7 @@
     <Folder Include="StrategyPattern\" />
     <Folder Include="StrategyPatternPractice\" />
     <Folder Include="ObserverPattern\" />
+    <Folder Include="ObserverPatternPractice\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ObserverPattern.cs" />
