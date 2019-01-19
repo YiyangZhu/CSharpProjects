@@ -5,6 +5,7 @@ using DesignPattern.ObserverPattern;
 using DesignPattern.ObserverPatternPractice;
 using DesignPattern.SingletonPattern;
 using DesignPattern.StatePattern;
+using DesignPattern.StatePatternPractice;
 using DesignPattern.StrategyPattern;
 using DesignPattern.StrategyPatternPractice;
 
@@ -122,11 +123,25 @@ namespace DesignPattern
 
 
 
-            GumballMachine gumballMachine = new GumballMachine(5);
-            Console.WriteLine(gumballMachine);
-            gumballMachine.InsertQuarter();
-            gumballMachine.TurnCrank();
-            Console.WriteLine(gumballMachine);
+            //GumballMachine gumballMachine = new GumballMachine(5);
+            //Console.WriteLine(gumballMachine);
+            //gumballMachine.InsertQuarter();
+            //gumballMachine.TurnCrank();
+            //Console.WriteLine(gumballMachine);
+
+            Car car1 = new Car();
+            car1.SetState(new ParkState(car1));
+            Console.WriteLine(car1.GetState());
+            car1.Accelerate();
+            car1.Decelerate();
+            car1.Stop();
+            car1.Start();
+            Console.WriteLine(car1.GetState());
+            car1.Accelerate();
+            car1.Decelerate();
+            car1.Start();
+            car1.Stop();
+            Console.WriteLine(car1.GetState());
 
 
         }
