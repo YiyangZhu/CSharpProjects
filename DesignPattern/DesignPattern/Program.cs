@@ -81,8 +81,8 @@ namespace DesignPattern
             Console.WriteLine(beverage.GetDescription() + " $" + beverage.Cost());
 
             Beverage beverage2 = new HouseBlend();
-            beverage2 = new Soy(beverage2);
-            Beverage beverage3 = new Mocha(beverage2);
+            CondimentDecorator beverage3 = new Soy(beverage2);
+            beverage3 = new Mocha(beverage3);
             Console.WriteLine(beverage3.GetDescription() + " $" + beverage3.Cost());
         }
     }

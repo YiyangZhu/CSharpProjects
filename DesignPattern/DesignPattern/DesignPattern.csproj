@@ -10,7 +10,8 @@
     <Folder Include="StrategyPatternPractice\" />
     <Folder Include="ObserverPattern\" />
     <Folder Include="ObserverPatternPractice\" />
-    <Folder Include="DecoratePattern\" />
+    <Folder Include="DecoratorPattern\" />
+    <Folder Include="DecoratorPatternPractice\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ObserverPattern.cs" />

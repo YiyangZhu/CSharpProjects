@@ -3,8 +3,8 @@ namespace DesignPattern.DecoratePattern
 {
     public class Mocha : CondimentDecorator
     {
-        Beverage beverage;
-        public Mocha(Beverage beverage)
+        CondimentDecorator beverage;
+        public Mocha(CondimentDecorator beverage)
         {
             this.beverage = beverage;
         }
