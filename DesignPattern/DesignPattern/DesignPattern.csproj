@@ -12,6 +12,7 @@
     <Folder Include="ObserverPatternPractice\" />
     <Folder Include="DecoratorPattern\" />
     <Folder Include="DecoratorPatternPractice\" />
+    <Folder Include="SingletonPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ObserverPattern.cs" />
