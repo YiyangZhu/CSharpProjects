@@ -1,6 +1,7 @@
 ﻿using System;
 using DesignPattern.DecoratePattern;
 using DesignPattern.DecoratorPatternPractice;
+using DesignPattern.IteratorPattern;
 using DesignPattern.ObserverPattern;
 using DesignPattern.ObserverPatternPractice;
 using DesignPattern.SingletonPattern;
@@ -13,6 +14,15 @@ namespace DesignPattern
 {
     class Program
     {
+        private static void printMenu(Iterator iterator)
+        {
+            while (iterator.HasNext())
+            {
+                string menuItem = iterator.Next();
+                Console.WriteLine(menuItem);
+            }
+        }
+
         static void Main(string[] args)
         {
             //MallardDuck mallard = new MallardDuck();
@@ -129,21 +139,36 @@ namespace DesignPattern
             //gumballMachine.TurnCrank();
             //Console.WriteLine(gumballMachine);
 
-            Car car1 = new Car();
-            car1.SetState(new ParkState(car1));
-            Console.WriteLine(car1.GetState());
-            car1.Accelerate();
-            car1.Decelerate();
-            car1.Stop();
-            car1.Start();
-            Console.WriteLine(car1.GetState());
-            car1.Accelerate();
-            car1.Decelerate();
-            car1.Start();
-            car1.Stop();
-            Console.WriteLine(car1.GetState());
+            //Car car1 = new Car();
+            //car1.SetState(new ParkState(car1));
+            //Console.WriteLine(car1.GetState());
+            //car1.Accelerate();
+            //car1.Decelerate();
+            //car1.Stop();
+            //car1.Start();
+            //Console.WriteLine(car1.GetState());
+            //car1.Accelerate();
+            //car1.Decelerate();
+            //car1.Start();
+            //car1.Stop();
+            //Console.WriteLine(car1.GetState());
 
+
+
+            DinerMenu dinerMenu = new DinerMenu();
+            dinerMenu.AddItem("Cake");
+            PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
+            pancakeHouseMenu.AddItem("Strawberry Pancakes");
+
+            Iterator pancakeIterator = pancakeHouseMenu.CreateIterator();
+            Iterator dinerIterator = dinerMenu.CreateIterator();
+
+            Console.WriteLine("\nMenu (with iterators)\n---\nBREAKFAST");
+            printMenu(pancakeIterator);
+            Console.WriteLine("\nLUNCH");
+            printMenu(dinerIterator);
 
         }
+
     }
 }

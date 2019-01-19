@@ -15,6 +15,7 @@
     <Folder Include="SingletonPattern\" />
     <Folder Include="StatePattern\" />
     <Folder Include="StatePatternPractice\" />
+    <Folder Include="IteratorPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ObserverPattern.cs" />
