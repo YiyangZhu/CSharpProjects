@@ -101,8 +101,11 @@ namespace DesignPattern
 
 
 
-            Singleton singleton = Singleton.GetInstance();
-            Console.WriteLine(singleton.GetDescription());
+            //Singleton singleton = Singleton.GetInstance();
+            //Console.WriteLine(singleton.GetDescription());
+
+            SingletonThreadSafeOne singletonThreadSafeOne = SingletonThreadSafeOne.GetInstance();
+            Console.WriteLine(singletonThreadSafeOne.GetDescription());
 
         }
     }
