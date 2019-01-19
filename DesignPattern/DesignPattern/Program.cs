@@ -1,6 +1,7 @@
 ﻿using System;
 using DesignPattern.DecoratePattern;
 using DesignPattern.DecoratorPatternPractice;
+using DesignPattern.FactoryPattern;
 using DesignPattern.IteratorPattern;
 using DesignPattern.IteratorPatternPractice;
 using DesignPattern.ObserverPattern;
@@ -178,17 +179,30 @@ namespace DesignPattern
             //Console.WriteLine("\nLUNCH");
             //PrintMenu(dinerIterator);
 
-            ClothesInventory clothesInventory = new ClothesInventory();
-            IIterator clothesIterator = clothesInventory.CreateInventory();
+            //ClothesInventory clothesInventory = new ClothesInventory();
+            //IIterator clothesIterator = clothesInventory.CreateInventory();
 
-            Console.WriteLine("\nInventory (with iterators)\n---\nCLOTHES");
-            PrintInventory(clothesIterator);
+            //Console.WriteLine("\nInventory (with iterators)\n---\nCLOTHES");
+            //PrintInventory(clothesIterator);
 
-            FurnitureInventory furnitureInventory = new FurnitureInventory();
-            IIterator furnitureIterator = furnitureInventory.CreateInventory();
+            //FurnitureInventory furnitureInventory = new FurnitureInventory();
+            //IIterator furnitureIterator = furnitureInventory.CreateInventory();
 
-            Console.WriteLine("\n---\nFURNITURES");
-            PrintInventory(furnitureIterator);
+            //Console.WriteLine("\n---\nFURNITURES");
+            //PrintInventory(furnitureIterator);
+
+
+
+            SimplePizzaFactory factory = new SimplePizzaFactory();
+            PizzaStore store = new PizzaStore(factory);
+
+            Pizza pizza = store.OrderPizza("cheese");
+            Console.WriteLine("We ordered a " + pizza.GetName() + "\n");
+            Console.WriteLine(pizza + "\n");
+
+            Pizza pizza2 = store.OrderPizza("pepperoni");
+            Console.WriteLine("We ordered a " + pizza2.GetName() + "\n");
+            Console.WriteLine(pizza2);
 
         }
 
