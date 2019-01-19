@@ -2,6 +2,7 @@
 using DesignPattern.DecoratePattern;
 using DesignPattern.DecoratorPatternPractice;
 using DesignPattern.IteratorPattern;
+using DesignPattern.IteratorPatternPractice;
 using DesignPattern.ObserverPattern;
 using DesignPattern.ObserverPatternPractice;
 using DesignPattern.SingletonPattern;
@@ -14,13 +15,22 @@ namespace DesignPattern
 {
     class Program
     {
-        private static void printMenu(Iterator iterator)
+        private static void PrintMenu(Iterator iterator)
         {
             while (iterator.HasNext())
             {
                 string menuItem = iterator.Next();
                 Console.WriteLine(menuItem);
             }
+        }
+
+        private static void PrintInventory(IIterator iterator)
+        {
+            while (iterator.HasNext())
+            {
+                Console.WriteLine(iterator.Next());
+            }
+
         }
 
         static void Main(string[] args)
@@ -155,18 +165,30 @@ namespace DesignPattern
 
 
 
-            DinerMenu dinerMenu = new DinerMenu();
-            dinerMenu.AddItem("Cake");
-            PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
-            pancakeHouseMenu.AddItem("Strawberry Pancakes");
+            //DinerMenu dinerMenu = new DinerMenu();
+            //dinerMenu.AddItem("Cake");
+            //PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
+            //pancakeHouseMenu.AddItem("Strawberry Pancakes");
 
-            Iterator pancakeIterator = pancakeHouseMenu.CreateIterator();
-            Iterator dinerIterator = dinerMenu.CreateIterator();
+            //Iterator pancakeIterator = pancakeHouseMenu.CreateIterator();
+            //Iterator dinerIterator = dinerMenu.CreateIterator();
 
-            Console.WriteLine("\nMenu (with iterators)\n---\nBREAKFAST");
-            printMenu(pancakeIterator);
-            Console.WriteLine("\nLUNCH");
-            printMenu(dinerIterator);
+            //Console.WriteLine("\nMenu (with iterators)\n---\nBREAKFAST");
+            //PrintMenu(pancakeIterator);
+            //Console.WriteLine("\nLUNCH");
+            //PrintMenu(dinerIterator);
+
+            ClothesInventory clothesInventory = new ClothesInventory();
+            IIterator clothesIterator = clothesInventory.CreateInventory();
+
+            Console.WriteLine("\nInventory (with iterators)\n---\nCLOTHES");
+            PrintInventory(clothesIterator);
+
+            FurnitureInventory furnitureInventory = new FurnitureInventory();
+            IIterator furnitureIterator = furnitureInventory.CreateInventory();
+
+            Console.WriteLine("\n---\nFURNITURES");
+            PrintInventory(furnitureIterator);
 
         }
 
