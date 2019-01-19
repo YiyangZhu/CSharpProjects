@@ -113,8 +113,11 @@ namespace DesignPattern
             //SingletonThreadSafeThree singletonThreadSafeThree = SingletonThreadSafeThree.Instance();
             //Console.WriteLine(singletonThreadSafeThree.GetDescription());
 
-            SingletonThreadSafeFour singletonThreadSafeFour = SingletonThreadSafeFour.Instance;
-            Console.WriteLine(singletonThreadSafeFour.GetDescription());
+            //SingletonThreadSafeFour singletonThreadSafeFour = SingletonThreadSafeFour.Instance;
+            //Console.WriteLine(singletonThreadSafeFour.GetDescription());
+
+            SingltonThreadSafeFive singletonThreadSafeFive = SingltonThreadSafeFive.Instance;
+            Console.WriteLine(singletonThreadSafeFive.GetDescription());
 
 
 
