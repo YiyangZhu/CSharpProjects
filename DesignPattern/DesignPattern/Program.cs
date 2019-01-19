@@ -4,6 +4,7 @@ using DesignPattern.DecoratorPatternPractice;
 using DesignPattern.ObserverPattern;
 using DesignPattern.ObserverPatternPractice;
 using DesignPattern.SingletonPattern;
+using DesignPattern.StatePattern;
 using DesignPattern.StrategyPattern;
 using DesignPattern.StrategyPatternPractice;
 
@@ -116,9 +117,16 @@ namespace DesignPattern
             //SingletonThreadSafeFour singletonThreadSafeFour = SingletonThreadSafeFour.Instance;
             //Console.WriteLine(singletonThreadSafeFour.GetDescription());
 
-            SingltonThreadSafeFive singletonThreadSafeFive = SingltonThreadSafeFive.Instance;
-            Console.WriteLine(singletonThreadSafeFive.GetDescription());
+            //SingltonThreadSafeFive singletonThreadSafeFive = SingltonThreadSafeFive.Instance;
+            //Console.WriteLine(singletonThreadSafeFive.GetDescription());
 
+
+
+            GumballMachine gumballMachine = new GumballMachine(5);
+            Console.WriteLine(gumballMachine);
+            gumballMachine.InsertQuarter();
+            gumballMachine.TurnCrank();
+            Console.WriteLine(gumballMachine);
 
 
         }
