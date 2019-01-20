@@ -1,4 +1,6 @@
-let numArray = [
+
+
+let numArray : Array <any> = [
     1,
     2,
     'interruption cow',
@@ -14,4 +16,5 @@ let add1 = (num) => {
 
 numArray.map((item) => {
     alert(add1(item));
+    return item;
 })
