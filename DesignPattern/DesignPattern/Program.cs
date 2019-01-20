@@ -2,6 +2,7 @@
 using DesignPattern.DecoratePattern;
 using DesignPattern.DecoratorPatternPractice;
 using DesignPattern.FactoryPattern;
+using DesignPattern.FactoryPatternPractice;
 using DesignPattern.IteratorPattern;
 using DesignPattern.IteratorPatternPractice;
 using DesignPattern.ObserverPattern;
@@ -193,16 +194,26 @@ namespace DesignPattern
 
 
 
-            SimplePizzaFactory factory = new SimplePizzaFactory();
-            PizzaStore store = new PizzaStore(factory);
+            //SimplePizzaFactory factory = new SimplePizzaFactory();
+            //PizzaStore store = new PizzaStore(factory);
 
-            Pizza pizza = store.OrderPizza("cheese");
-            Console.WriteLine("We ordered a " + pizza.GetName() + "\n");
-            Console.WriteLine(pizza + "\n");
+            //Pizza pizza = store.OrderPizza("cheese");
+            //Console.WriteLine("We ordered a " + pizza.GetName() + "\n");
+            //Console.WriteLine(pizza + "\n");
 
-            Pizza pizza2 = store.OrderPizza("pepperoni");
-            Console.WriteLine("We ordered a " + pizza2.GetName() + "\n");
-            Console.WriteLine(pizza2);
+            //Pizza pizza2 = store.OrderPizza("pepperoni");
+            //Console.WriteLine("We ordered a " + pizza2.GetName() + "\n");
+            //Console.WriteLine(pizza2);
+
+            TableStore tableStore = new TableStore();
+            tableStore.CreateTable("side");
+            tableStore.OrderTable();
+            tableStore.CreateTable("bunching");
+            tableStore.OrderTable();
+            tableStore.CreateTable(null);
+            tableStore.OrderTable();
+            tableStore.CreateTable("unknown");
+            tableStore.OrderTable();
 
         }
 

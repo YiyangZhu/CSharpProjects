@@ -18,6 +18,7 @@
     <Folder Include="IteratorPattern\" />
     <Folder Include="IteratorPatternPractice\" />
     <Folder Include="FactoryPattern\" />
+    <Folder Include="FactoryPatternPractice\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ObserverPattern.cs" />
