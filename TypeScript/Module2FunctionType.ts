@@ -42,14 +42,21 @@ class Dog extends Animal{
 }
 
 interface NotOkay{
-    [x:number]: Animal; //Error! 
+    [x:number]: Animal; //Error! //the returned type from a number index is not a subtype of the returned type of the string indexer.
     [x:string]: Dog;
+}
+//Javascript treats numbers like string, for example, 100 is treated as '100'
+//right interface:
+interface ThisIsOkay{
+    [x:number] : Dog;
+    [x:string] : Animal;
 }
 
 interface NumberDictionary{
     [index: string]: number;
     length: number;
     name: string;//error: the type of name is not a subtype of the indexer
+    name2: number;//no error
 }
 
 //make index signatures readonly
