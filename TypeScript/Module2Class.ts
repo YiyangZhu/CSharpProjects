@@ -388,4 +388,17 @@ greeterFour.standardGreeting = "Hi, there!";//Error, standardGreeting is a stati
 //NOTE: two ways to change static variables: 1. change the original class' static variable values. 2. create
 //a new variable whose type is the class(but not new instance), change its static member values.
 
+/*
+Using a class as an interface
+A class declaration creates two things: a type representing instances of the class and a constructor function.
+Because classes creates types, you can use them in the same places you would be able to use interfaces.
+*/
+class Point{
+    x: number;
+    y: number;
+}
 
+interface Point3d extends Point{
+    z:number;
+}
+let point3d: Point3d = {x:1,y:2,z:3};
