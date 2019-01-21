@@ -190,9 +190,202 @@ class OctopusTwo{
 // the same is done for public, and readonly.
 
 
+/*
+Accessors
+TypeScript supports getters/setters as a way of intercepting accessors to a member of an object. This gives you
+a way of having finer-grained control over how a member is accessed on each object.
+Convert a simple class to use get and set. First, an example without getters and setters:
+ */
+class EmployeeSix{
+    fullName: string;
+}
+let employeeSix = new EmployeeSix();
+employeeSix.fullName = "Bob Smith";
+if(employeeSix.fullName){
+    console.log(employeeSix.fullName);
+}
+
+/*
+While allowing people to randomly set fullName directly is pretty handy, this might get us in trouble if people can change names on a whim.
+The following version check to make sure the user has a secret passcode available before being allowed to modify the employee.
+Do this by replacing the direct access to fullName with a set that will check the passcode. We had a corresponding get 
+to allow the previous example to continue to work seamlessly.
+*/
+let passcode = "secret passcode";
+class EmployeeSeven{
+    private _fullName: string;
+    get fullName():string{
+        return this._fullName;
+    }
+
+    set fullName(newName: string){
+        if(passcode && passcode == "secret passcode"){
+            this._fullName = newName;
+        } 
+        else {
+            console.log("Error: Unauthorized update of employee!");
+        }
+    }
+}
+
+let employeeSeven = new EmployeeSeven();
+employeeSeven.fullName = "Bob Smith";
+if(employeeSeven.fullName){
+    console.log(employeeSeven.fullName);
+}
+
+/*
+Static Properties
+Instance members of the class are those that show up on the object when it's instantiated. We can also
+create static members of a class, those that are visible on the class itself rather than on the instances. 
+Use static on the origin, as it's a general value for all grids. Each instance accesses this value through prepending
+the name of the class. Similarly to prepending this. in front of instance accesses, here we prepend Grid. in front
+of static accesses.
+*/
+class Grid{
+    static origin = {x:0,y:0};
+    calculateDistanceFromOrigin(point:{x:number,y:number}){
+        let xDist = (point.x - Grid.origin.x);
+        let yDist = (point.y - Grid.origin.y);
+        return Math.sqrt(xDist * xDist + yDist * yDist) / this.scale;
+    }
+    constructor(public scale: number){
+    }
+}
+
+let grid1 = new Grid(1.0);//1x scale
+let grid2 = new Grid(5.0);//5x scale
+
+console.log(grid1.calculateDistanceFromOrigin({x:10,y:10}));
+console.log(grid2.calculateDistanceFromOrigin({x:10,y:10}));
+
+/*
+Abstract class
+are base classes from which other classes may be derived. They may not be instantiated directly. Unlike an interface,
+an abstract class may contain implementation details for its members. The abstract keyword is used to define
+abstract classes as well as abstract methods within an abstract class.
+*/
+abstract class AnimalSeven{
+    abstract makeSound():void;
+    move():void{
+        console.log("roaming the earth...");
+    }
+}
+/*
+Methods within an abstract class that are marked as abstract do not contain an implementation and must be 
+implemented in derived classes. Abstract methods share a similar syntax to interface methods. Both define the
+signature of a method without including a mehtod body. However, abstract methods must include the abstract keyword and
+may optionally include access modifiers.
+*/
+abstract class Department{
+    constructor(public name: string){
+
+    }
+    printName():void{
+        console.log("Department name: " + this.name);
+    }
+    abstract printMeeting(): void;
+}
+class AccountingDepartment extends Department{
+    constructor(){super("Accounting and Auditing");}
+
+    printMeeting():void{
+        console.log("The Accounting Department meets each Monday at 10am.");
+    }
+
+    generateReports():void{
+        console.log("Generating accounting reports...");
+    }
+}
+
+let department: Department;//okay to create a reference to an abstract type
+department = new Department(); // Error, cannot create an instance of an abstract class!
+department = new AccountingDepartment();//no error, create and assign a non-abstract class
+department.printName();
+department.printMeeting();
+department.generateReports();//Error. property of generateReports does not exist in Department class.
+// NOTE: same as Java. declaration determines which properties the varaible will hold in it. And initialization/asignment
+//determines which implementation it will have within it.
 
 
+/*
+Advanced Techniques
+constructor functions: when declare a class in TypeScript, creating multiple declarations at the same time. The first
+is the type of the instance of the class.
+*/
+class GreeterTwo{
+    greeting: string;
+    constructor(message:string){
+        this.greeting = message;
+    }
+    greet(){
+        return "Hello, " + this.greeting;
+    }
+}
 
+let greeterTwo: GreeterTwo;
+greeterTwo = new Greeter("World");
+console.log(greeterTwo.greet());
 
+/*
+When we say let greeterTwo: GreeterTwo, we're using Greeter as the type of instances of the class Greeter.
+This is almost second nature to programmers from other object-oriented languages.
+We're also creating another value that we call the constructor function. This is the function that is called
+when we new up instances of the class. To see what this looks like in practice, let's take a look at the Javascript created
+by the above example:
+*/
+let GreeterThree = (function(){
+    function GreeterThree(message){
+        this.greeting = message;
+    }
+    GreeterThree.prototype.greet = function(){
+        return "Hello, " + this.greeting;
+    }
+    return GreeterThree;
+
+})();
+
+let greeterThree;
+greeterThree = new GreeterThree("world");
+console.log(greeterThree.greet());
+/*
+Let GreeterThree is going to be assigned the constructor function. When we call new and fun this function, we get
+an instance of the class. The constructor function also contains all of the static members of the class. Another way
+to think of each class is that there is an instance side and a static side.
+*/
+class GreeterFour{
+    static standardGreeting = "Hello, there";
+    greeting: string;
+    greet(){
+        if(this.greeting){
+            return "Hello, " + this.greeting;
+        } else {
+            return GreeterFour.standardGreeting;
+        }
+    }
+}
+
+let greeterFour: GreeterFour;
+greeterFour = new GreeterFour();
+console.log(greeterFour.greet());
+
+let greeterMaker: typeof GreeterFour = GreeterFour;
+greeterMaker.standardGreeting = "Hey there!";
+let greeterFive: GreeterFour = new greeterMaker();
+console.log(greeterFive.greet());
+
+/*
+greeterFour works similarly to before. Instantiate the Greeter class, and use the object.
+greeterMaker is the example of using the class directly. Create a new variable called greeterMake. This variable
+holds the class itself, or said another way its constructor function. Here we use typeof GreeterFour, that is give 
+it the type of the GreeterFour class itself rather than the instance type. Or more precisely, "give me the type of the symbol
+called Greeter,"which is the type of the constructor function. This type will contain all of the static members of GreeterFour
+along with the constructor that creates instances of the GreeterFour class. Show this by using new on greeterMaker,
+creating new instances of Greeter and invoking them as before.
+*/
+GreeterFour.standardGreeting = "Hi, there!";//Valid
+greeterFour.standardGreeting = "Hi, there!";//Error, standardGreeting is a static member of type GreeterFour.
+//NOTE: two ways to change static variables: 1. change the original class' static variable values. 2. create
+//a new variable whose type is the class(but not new instance), change its static member values.
 
 
