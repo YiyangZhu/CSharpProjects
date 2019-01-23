@@ -1,5 +1,5 @@
-let color: string;
-color = "green";
+let color: string[];
+color = ["green","yellow","red","purple","grey"];
 let squareSizeNum: number;
 squareSizeNum = 100;
 
@@ -16,15 +16,42 @@ represents a subset of what an HTML element can do natively in JS.
 Finally, add some text to the button, and then append those elements to our document.body - which is the
 <body> tag in the standard HTML document that we set up in the Lab Setup Instructions.
 */
-button.textContent = "Change Color";
-document.body.appendChild(button);
-document.body.appendChild(div);
 
+/*
 let colorChange: Function = (elem: Element,color: string): boolean => {
     elem.style.backgroundColor = color;
     return true;
 }
+*/
 
+//two ways to fix the error:
+//way1:
+let colorChangeOne: Function = (elem: Element, color: string):boolean =>{
+    (<HTMLElement>elem).style.backgroundColor = color;
+    return true;
+} 
 
+//way2
+let colorChangeTwo: Function = (elem: Element, color: string) => {
+    (elem as HTMLElement).style.backgroundColor = color;
+    return true;
+}
 
+(div as HTMLElement).style.width = squareSize;
+(div as HTMLElement).style.height = squareSize;
 
+(button as HTMLElement).onclick = (event) => {
+    colorChangeOne(div,color[Math.floor(Math.random()*color.length)]);
+}
+
+button.textContent = "Change Color";
+document.body.appendChild(button);
+document.body.appendChild(div);
+
+let list = [4, 5, 6];
+
+for (let i in list) {
+    button.textContent = "Change Color";
+    document.body.appendChild(button);
+    document.body.appendChild(div);
+}
