@@ -19,6 +19,11 @@ namespace Basics
             int[] nums = { 5, 10, 3, 2, 4 };
             BubbleSort(nums);
 
+            int[] nums2 = { 7, 8, 4, 6, 2, 1 };
+            InsertionSort(nums2);
+
+
+
 
         }
 
@@ -40,7 +45,7 @@ namespace Basics
             {
                 Console.Write("{0}, ", nums[i]);
             }
-            Console.Write("{0}", nums[nums.Length - 1]);
+            Console.WriteLine("{0}", nums[nums.Length - 1]);
         }
 
         static void Swap(int[] nums, int index1,int index2)
@@ -51,6 +56,43 @@ namespace Basics
                 nums[index1] = nums[index2];
                 nums[index2] = temp;
             }
+        }
+
+        static void InsertionSort(int[] nums)
+        {
+            Console.Write("Before: ");
+            int n = nums.Length;
+            for(int i = 0; i < n-1; i++)
+            {
+                Console.Write(nums[i]+", ");
+            }
+            Console.WriteLine(nums[n-1]);
+
+            for (int i = 1; i < n; i++)
+            {
+                int k = 0;
+                int j = 0;
+                int temp = 0;
+                for(j = 0; j <= i-1; j++)
+                {
+                    if(nums[i] < nums[j])
+                    {
+                        temp = nums[i];
+                        for(k = i; k > j; k--)
+                        {
+                            nums[k] = nums[k - 1];
+                        }
+                        nums[j] = temp;
+                        break;
+                    }
+                }
+            }
+            Console.Write("After: ");
+            for(int i = 0; i < n-1; i++)
+            {
+                Console.Write(nums[i] + ", ");
+            }
+            Console.Write(nums[n - 1]);
         }
     }
 }
