@@ -6,6 +6,7 @@ namespace Basics
     {
         static void Main(string[] args)
         {
+            /*
             int numBase = 2;
             int exp = 16;
             int result = 1;
@@ -25,6 +26,10 @@ namespace Basics
 
             int[] nums3 = { 7, 8, 4, 6, 2, 1 };
             SelectionSort.SelectionSort_(nums3);
+            */
+
+            int[] nums4 = { 38, 27, 43, 3, 9, 82, 10 };
+            MergeSort.MergeSort_(nums4,0,6);
 
         }
 
