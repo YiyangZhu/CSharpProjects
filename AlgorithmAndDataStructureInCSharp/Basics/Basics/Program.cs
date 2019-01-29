@@ -15,6 +15,9 @@ namespace Basics
                 exp--;
             }
             Console.WriteLine($"Result is {result}");
+
+            int[] nums = { 5, 10, 3, 2, 4 };
+            Console.Write("Before: " + nums);
         }
     }
 }
