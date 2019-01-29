@@ -22,8 +22,8 @@ namespace Basics
             int[] nums2 = { 7, 8, 4, 6, 2, 1 };
             InsertionSort(nums2);
 
-
-
+            int[] nums3 = { 7, 8, 4, 6, 2, 1 };
+            SelectionSort(nums3);
 
         }
 
@@ -92,7 +92,42 @@ namespace Basics
             {
                 Console.Write(nums[i] + ", ");
             }
-            Console.Write(nums[n - 1]);
+            Console.WriteLine(nums[n - 1]);
+        }
+
+        //selection sort: in-place comparison sort
+        static void SelectionSort(int[] nums)
+        {
+            Console.Write("Before: ");
+            int n = nums.Length;
+            for(int i = 0; i < n - 1; i++)
+            {
+                Console.Write("{0}, ", nums[i]);
+            }
+            Console.WriteLine(nums[n-1]);
+
+            for(int i = 0; i < n; i++)
+            {
+                int smallest = nums[i];
+                int smallIndex = i;
+                for(int j = i; j < n; j++)
+                {
+                    if(nums[j] < smallest)
+                    {
+                        smallest = nums[j];
+                        smallIndex = j;
+                    }
+                }
+                Swap(nums, i, smallIndex);
+            }
+
+            Console.Write("After: ");
+            for(int i = 0; i < n - 1; i++)
+            {
+                Console.Write("{0}, ", nums[i]);
+            }
+            Console.WriteLine(nums[n - 1]);
         }
     }
 }
+
