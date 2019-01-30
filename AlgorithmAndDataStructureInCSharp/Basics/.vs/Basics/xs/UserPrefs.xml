@@ -1,8 +1,15 @@
 ﻿<Properties StartupConfiguration="{24CAA6DA-FCFD-4562-8E33-A7DF691E75F5}|Default">
   <MonoDevelop.Ide.ItemProperties.Basics PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Basics/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Basics/BinarySearch.cs">
     <Files>
-      <File FileName="Basics/Program.cs" Line="21" Column="1" />
+      <File FileName="Basics/Program.cs" Line="44" Column="1" />
+      <File FileName="Basics/QuickSort.cs" Line="36" Column="29" />
+      <File FileName="Basics/SelectionSort.cs" Line="23" Column="34" />
+      <File FileName="Basics/BubbleSort.cs" Line="39" Column="10" />
+      <File FileName="Basics/InsertionSort.cs" Line="10" Column="42" />
+      <File FileName="Basics/MergeSort.cs" Line="79" Column="13" />
+      <File FileName="Basics/LinearSearch.cs" Line="16" Column="18" />
+      <File FileName="Basics/BinarySearch.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
