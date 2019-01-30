@@ -26,11 +26,25 @@ namespace Basics
 
             int[] nums3 = { 7, 8, 4, 6, 2, 1 };
             SelectionSort.SelectionSort_(nums3);
-            */
 
             int[] nums4 = { 38, 27, 43, 3, 9, 82, 10 };
             MergeSort.MergeSort_(nums4,0,6);
+            */
 
+            int[] nums5 = { 38, 27, 43, 3, 9, 82, 10 };
+            QuickSort.QuickSort_(nums5, 0, 6);
+            DisplayArray(nums5);
+
+        }
+
+        static void DisplayArray(int[] nums)
+        {
+            Console.Write("After: ");
+            for (int i = 0; i < nums.Length - 1; i++)
+            {
+                Console.Write("{0}, ", nums[i]);
+            }
+            Console.WriteLine(nums[nums.Length - 1]);
         }
 
     }
