@@ -6,8 +6,11 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
+            /*
             Array.ArrayDemo();
             Array.TypeArrayDemo();
+            */          
+            EnumDemo.EnumDemo_();
 
 
         }
