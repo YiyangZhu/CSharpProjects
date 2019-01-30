@@ -33,10 +33,13 @@ namespace Basics
             int[] nums5 = { 38, 27, 43, 3, 9, 82, 10 };
             QuickSort.QuickSort_(nums5, 0, 6);
             DisplayArray(nums5);
-            */
 
             int[] nums6 = { 38, 27, 43, 3, 9, 82, 10 };
             Console.Write(LinearSearch.LinearSearch_(nums6,27));
+            */
+
+            int[] nums7 = { 3, 4, 6, 8, 9, 10, 12, 13, 15 };
+            Console.Write(BinarySearch.BinarySearch_(nums7, 12));
 
         }
 
