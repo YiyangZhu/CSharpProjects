@@ -29,11 +29,14 @@ namespace Basics
 
             int[] nums4 = { 38, 27, 43, 3, 9, 82, 10 };
             MergeSort.MergeSort_(nums4,0,6);
-            */
 
             int[] nums5 = { 38, 27, 43, 3, 9, 82, 10 };
             QuickSort.QuickSort_(nums5, 0, 6);
             DisplayArray(nums5);
+            */
+
+            int[] nums6 = { 38, 27, 43, 3, 9, 82, 10 };
+            Console.Write(LinearSearch.LinearSearch_(nums6,27));
 
         }
 
