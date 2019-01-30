@@ -9,8 +9,10 @@ namespace DataStructures
             /*
             Array.ArrayDemo();
             Array.TypeArrayDemo();
-            */          
+                   
             EnumDemo.EnumDemo_();
+            */
+            ExtendStructDemo.ExtendStructDemo_();          
 
 
         }
