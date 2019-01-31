@@ -29,10 +29,11 @@ namespace DataStructures
 
 
             HashTableDemo.HashTableDemo_();
-            */
-            Lab1.CarDemo();
 
-        
+            Lab1.CarDemo();
+            */
+
+            Lab2.EnumDemo();
         }
     }
 }
