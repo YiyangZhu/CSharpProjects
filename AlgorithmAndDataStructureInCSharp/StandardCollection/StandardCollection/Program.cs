@@ -18,8 +18,11 @@ namespace StandardCollection
             SelfAssess.Demo();
                      
             Generics.Demo();
-            */
+
             CreateAndUseGeneric_Classes.Demo();
+            */
+            ConstrainingGenerics.Demo();
+                       
         }
     }
 }

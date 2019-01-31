@@ -14,8 +14,8 @@ namespace StandardCollection
             Coffee coffee2 = new Coffee();
             clc.Add(coffee1);
             clc.Add(coffee2);
-            Coffee firstCoffee = clc[0];
-            Console.WriteLine(firstCoffee);
+            //Coffee firstCoffee = clc[0];
+            //Console.WriteLine(firstCoffee);
 
         }
 
@@ -26,7 +26,7 @@ namespace StandardCollection
 
         public class CustomList<T>
         {
-            public T this[int index] { get; set; }
+            //public T this[int index] { get; set; }
 
             public void Add(T item)
             {
