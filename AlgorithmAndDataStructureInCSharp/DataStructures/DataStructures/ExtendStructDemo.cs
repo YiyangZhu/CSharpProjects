@@ -62,7 +62,7 @@ namespace DataStructures
             coffee1.Strength = 3; 
             // The following code invokes the get accessor. 
             int coffeeStrength = coffee1.Strength;
-            Menu myMenu = new Menu();
+            Menu myMenu = new Menu("bev1","bev2");
             string firstDrink = myMenu.beverages[0];
             Console.WriteLine("Beverage at index 0 in beverages in menu is {0}", firstDrink);
 

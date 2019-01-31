@@ -11,8 +11,9 @@ namespace DataStructures
             Array.TypeArrayDemo();
                    
             EnumDemo.EnumDemo_();
+
+            ExtendStructDemo.ExtendStructDemo_();
             */
-            ExtendStructDemo.ExtendStructDemo_();          
 
 
         }
