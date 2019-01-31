@@ -16,10 +16,10 @@ namespace StandardCollection
             LabTwo.Demo();
            
             SelfAssess.Demo();
-            */
-
+                     
             Generics.Demo();
-
+            */
+            CreateAndUseGeneric_Classes.Demo();
         }
     }
 }
