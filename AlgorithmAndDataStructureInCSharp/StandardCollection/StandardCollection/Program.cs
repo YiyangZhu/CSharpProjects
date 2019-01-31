@@ -6,7 +6,10 @@ namespace StandardCollection
     {
         static void Main(string[] args)
         {
+            /*
             SimpleCollection.Demo();
+            */
+            SpecializedCollection.Demo();          
         }
     }
 }
