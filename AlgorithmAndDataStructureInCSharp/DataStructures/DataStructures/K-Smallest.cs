@@ -20,6 +20,15 @@ namespace DataStructures
             Test(Ksmallest(array2, k2), number2);
         }
 
+        public static int Ksmallest(int[] a, int k)
+        {
+            //quicksort a, time complexity: O(nlog(n))
+            QuickSort(a, 0, a.Length - 1);
+            DisplayArray(a);
+            //find the k-smallest element, O(1)
+            return FindKSmallest(a, k);
+        }
+
         public static int FindKSmallest(int[] a, int k)
         {
             int i = 0;
@@ -42,15 +51,6 @@ namespace DataStructures
         public static void Test(int actualResult, int expectResult)
         {
             Console.WriteLine($"actual result is {actualResult}, expected result is {expectResult}");
-        }
-
-        public static int Ksmallest(int[] a, int k)
-        {
-            //quicksort a, time complexity: O(nlog(n))
-            QuickSort(a, 0, a.Length-1);
-            DisplayArray(a);
-            //find the k-smallest element, O(1)
-            return FindKSmallest(a, k);
         }
 
         static void QuickSort(int[] a, int start, int end)
