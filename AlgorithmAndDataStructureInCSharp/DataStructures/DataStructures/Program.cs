@@ -36,9 +36,11 @@ namespace DataStructures
 
             ClosestInteger.Demo();
             Console.Write("-8/3 is {0}", (int)-8 / 3);
-            */
-            ReverseCharacters.Demo();
 
+            ReverseCharacters.Demo();
+            */
+
+            K_Smallest.Demo();
         
         }
     }
