@@ -26,10 +26,13 @@ namespace DataStructures
             BST.Insert(Node4);
             BST.Insert(Node5);
             BST.InOrderDisplayTree();
-            */
+
 
             HashTableDemo.HashTableDemo_();
+            */
+            Lab1.CarDemo();
 
+        
         }
     }
 }
