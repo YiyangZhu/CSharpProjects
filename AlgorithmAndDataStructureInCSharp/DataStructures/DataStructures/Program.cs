@@ -13,7 +13,6 @@ namespace DataStructures
             EnumDemo.EnumDemo_();
 
             ExtendStructDemo.ExtendStructDemo_();
-            */
 
             BinarySearchTree BST = new BinarySearchTree();
             Node Node1 = new Node(5);
@@ -27,10 +26,9 @@ namespace DataStructures
             BST.Insert(Node4);
             BST.Insert(Node5);
             BST.InOrderDisplayTree();
+            */
 
-
-
-
+            HashTableDemo.HashTableDemo_();
 
         }
     }
