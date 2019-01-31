@@ -12,8 +12,11 @@ namespace StandardCollection
             SpecializedCollection.Demo();
 
             LabOne.Demo();
-            */
+
             LabTwo.Demo();
+            */
+            SelfAssess.Demo();
+        
         }
     }
 }
