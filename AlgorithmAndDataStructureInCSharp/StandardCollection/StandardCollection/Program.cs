@@ -10,8 +10,10 @@ namespace StandardCollection
             SimpleCollection.Demo();
 
             SpecializedCollection.Demo();
-            */
+
             LabOne.Demo();
+            */
+            LabTwo.Demo();
         }
     }
 }
