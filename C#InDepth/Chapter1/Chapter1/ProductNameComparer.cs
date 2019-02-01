@@ -25,5 +25,17 @@ namespace Chapter1
                 Console.WriteLine(p);
             }
         }
+
+        public static void QDemo()
+        {
+            ArrayList products = Product.GetSampleProducts();
+            foreach(Product p in products)
+            {
+                if(p.Price > 10m)
+                {
+                    Console.WriteLine(p);
+                }
+            }
+        }
     }
 }

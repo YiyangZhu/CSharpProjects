@@ -20,10 +20,17 @@ namespace Chapter1
             ProductNameComparerTwo.Demo();
 
             ProductNameComparerTwo.DemoTwo();
-            */
+
             ProductNameComparerTwo.DemoThree();
 
-        
+            ProductNameComparer.QDemo();
+
+            ProductNameComparerTwo.QDemo();
+            */
+            ProductNameComparerTwo.QDemoTwo();
+            ProductNameComparerTwo.QDemoThree();
+
+
         }
     }
 }

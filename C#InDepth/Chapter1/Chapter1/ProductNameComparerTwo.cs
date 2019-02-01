@@ -51,8 +51,6 @@ namespace Chapter1
 
 
             List<ProductThree> products = ProductThree.GetSampleProducts();
-            List<ProductThree> newList = products.
-            
             /*
             foreach (ProductThree p in products.OrderBy(p1 => p1.Name))//Ask
             {
@@ -60,6 +58,36 @@ namespace Chapter1
             }
             */
         }
+
+        public static void QDemo()
+        {
+            List<ProductTwo> products = ProductTwo.GetSampleProducts();
+
+            Predicate<ProductTwo> test = delegate (ProductTwo p) { return p.Price > 10m; };
+            List<ProductTwo> matches = products.FindAll(test);
+
+            Action<ProductTwo> print = Console.WriteLine;
+            matches.ForEach(print);
+        }
+
+        public static void QDemoTwo()
+        {
+            List<ProductTwo> products = ProductTwo.GetSampleProducts();
+
+            products.FindAll(delegate (ProductTwo p) { return p.Price > 10; }).ForEach(Console.WriteLine);
+        }
+
+        public static void QDemoThree()
+        {
+            List<ProductTwo> products = ProductTwo.GetSampleProducts();
+            /*
+            foreach(ProductTwo product in products.Where(products => p.price > 10))//Error
+            {
+                Console.WriteLine(product);
+            }
+            */
+        }
+
     }
 
 }
