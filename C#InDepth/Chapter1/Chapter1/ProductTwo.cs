@@ -7,18 +7,18 @@ namespace Chapter1
     public class ProductTwo
     {
         string name;
+        decimal? price;
+        public decimal? Price
+        {
+            get { return Price; }
+            private set { price = value; }
+        }
         public string Name 
         { 
             get { return name; }
             private set { name = value; }
         }
 
-        decimal price;
-        public decimal Price 
-        { 
-            get { return price; }
-            private set { price = value; }
-        }
 
         public ProductTwo(string name, decimal price)
         {

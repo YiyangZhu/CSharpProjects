@@ -8,11 +8,17 @@ namespace Chapter1
         readonly string name;
         public string Name { get { return name; } }
 
-        readonly decimal price;
-        public decimal Price { get { return price; } }
+        readonly decimal? price;
+        public decimal? Price { get { return price; } }
 
         public ProductFour()
         {
+        }
+
+        public ProductFour(string name, decimal? price = null)
+        {
+            this.name = name;
+            this.price = price;
         }
 
         public ProductFour(string name, decimal price)
@@ -27,7 +33,8 @@ namespace Chapter1
             {
                 new ProductFour(name: "Water", price: 0.99m),
                 new ProductFour(name: "Coke", price: 1.35m),
-                new ProductFour(name: "Juice", price:2.99m)
+                new ProductFour(name: "Juice", price:2.99m),
+                new ProductFour(name: "Tea")
             };
         }
 

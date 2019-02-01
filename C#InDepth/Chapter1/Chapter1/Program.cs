@@ -26,9 +26,19 @@ namespace Chapter1
             ProductNameComparer.QDemo();
 
             ProductNameComparerTwo.QDemo();
-            */
+
             ProductNameComparerTwo.QDemoTwo();
+
+           
             ProductNameComparerTwo.QDemoThree();
+
+            HandleNullValue.Demo();
+
+            HandleNullValue.Demo();
+
+            HandleNullValue.DemoTwo(); //stackoverflow exception
+            */
+            HandleNullValue.DemoThree();
 
 
         }

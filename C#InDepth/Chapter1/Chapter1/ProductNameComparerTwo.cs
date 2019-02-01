@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Chapter1
 {
@@ -80,12 +81,12 @@ namespace Chapter1
         public static void QDemoThree()
         {
             List<ProductTwo> products = ProductTwo.GetSampleProducts();
-            /*
-            foreach(ProductTwo product in products.Where(products => p.price > 10))//Error
+
+            foreach(ProductTwo product in products.Where(p => p.Price > 10))//need revise, stackoverflow error
             {
                 Console.WriteLine(product);
             }
-            */
+
         }
 
     }

@@ -6,7 +6,12 @@ namespace Chapter1
     public class ProductThree
     {
         public string Name { get; private set; }
-        public decimal Price { get; private set; }
+        decimal? price;
+        public decimal? Price
+        {
+            get { return price; }
+            private set { price = value; }
+        }
 
         public ProductThree(string name, decimal price)
         {
