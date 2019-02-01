@@ -12,8 +12,17 @@ namespace Chapter1
             ProductTwo.Demo();
             
             ProductThree.Demo();
-            */
+
             ProductFour.Demo();
+
+            ProductNameComparer.Demo();
+
+            ProductNameComparerTwo.Demo();
+
+            ProductNameComparerTwo.DemoTwo();
+            */
+            ProductNameComparerTwo.DemoThree();
+
         
         }
     }
