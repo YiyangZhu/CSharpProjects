@@ -20,9 +20,11 @@ namespace StandardCollection
             Generics.Demo();
 
             CreateAndUseGeneric_Classes.Demo();
-            */
+
             ConstrainingGenerics.Demo();
-                       
+            */
+            CollectionInterface.Demo();
+
         }
     }
 }
