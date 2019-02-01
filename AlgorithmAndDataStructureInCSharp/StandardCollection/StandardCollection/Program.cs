@@ -23,7 +23,8 @@ namespace StandardCollection
 
             ConstrainingGenerics.Demo();
             */
-            CollectionInterface.Demo();
+
+            GenericLabOne.Demo();
 
         }
     }

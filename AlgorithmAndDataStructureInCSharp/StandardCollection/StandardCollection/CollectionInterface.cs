@@ -6,5 +6,10 @@ namespace StandardCollection
         public CollectionInterface()
         {
         }
+
+        public static void Demo()
+        {
+
+        }
     }
 }
