@@ -34,12 +34,15 @@ namespace Chapter1
 
             HandleNullValue.Demo();
 
-            HandleNullValue.Demo();
-
             HandleNullValue.DemoTwo(); //stackoverflow exception
-            */
+
             HandleNullValue.DemoThree();
 
+            HandleNullValue.DemoTwo();
+
+            IntroLinq.Demo();
+            */
+            IntroLinq.DemoTwo();
 
         }
     }

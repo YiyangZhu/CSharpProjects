@@ -10,7 +10,7 @@ namespace Chapter1
         decimal? price;
         public decimal? Price
         {
-            get { return Price; }
+            get { return price; }
             private set { price = value; }
         }
         public string Name 
@@ -19,11 +19,19 @@ namespace Chapter1
             private set { name = value; }
         }
 
+        public int SupplierID { get; set; }
 
         public ProductTwo(string name, decimal price)
         {
             this.name = name;
             this.price = price;
+        }
+
+        public ProductTwo(string name, decimal price, int supplierID)
+        {
+            this.name = name;
+            this.price = price;
+            this.SupplierID = supplierID;
         }
 
         public static void Demo()
@@ -42,6 +50,16 @@ namespace Chapter1
             list.Add(new ProductTwo("Assassins", 14.99m));
             list.Add(new ProductTwo("Frogs", 13.99m));
             list.Add(new ProductTwo("Sweeney Todd", 10.99m));
+            return list;
+        }
+
+        public static List<ProductTwo> GetSampleProductsTwo()
+        {
+            List<ProductTwo> list = new List<ProductTwo>();
+            list.Add(new ProductTwo("West Side Story", 9.99m, 001));
+            list.Add(new ProductTwo("Assassins", 14.99m, 002));
+            list.Add(new ProductTwo("Frogs", 13.99m, 003));
+            list.Add(new ProductTwo("Sweeney Todd", 10.99m, 004));
             return list;
         }
 
