@@ -6,7 +6,12 @@ namespace Chapter2
     {
         static void Main(string[] args)
         {
+            /*
             DelegateDemo.Demo();
+
+            TypeSystem.Demo();
+            */
+            ValueAndReferenceType.Demo();
         }
     }
 }
