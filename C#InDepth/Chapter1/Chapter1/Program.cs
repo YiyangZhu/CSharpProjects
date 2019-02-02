@@ -45,8 +45,11 @@ namespace Chapter1
             IntroLinq.DemoTwo();
 
             IntroLinq.DemoThree();
-            */
+
             IntroLinq.DemoFour();
+            */
+            ComAndDT.Demo();
+        
         }
     }
 }
