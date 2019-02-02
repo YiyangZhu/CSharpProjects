@@ -41,9 +41,12 @@ namespace Chapter1
             HandleNullValue.DemoTwo();
 
             IntroLinq.Demo();
-            */
+
             IntroLinq.DemoTwo();
 
+            IntroLinq.DemoThree();
+            */
+            IntroLinq.DemoFour();
         }
     }
 }
