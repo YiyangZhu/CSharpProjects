@@ -10,8 +10,11 @@ namespace Chapter2
             DelegateDemo.Demo();
 
             TypeSystem.Demo();
-            */
+
             ValueAndReferenceType.Demo();
+            */
+            BeyondC_1NewFeature.Demo();
+        
         }
     }
 }
