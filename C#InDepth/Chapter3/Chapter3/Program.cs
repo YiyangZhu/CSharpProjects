@@ -6,7 +6,10 @@ namespace Chapter3
     {
         static void Main(string[] args)
         {
+            /*
             DictionDemo.Demo();
+            */
+            TypeParameter.Demo();          
         }
     }
 }
