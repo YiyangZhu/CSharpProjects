@@ -12,8 +12,10 @@ namespace Chapter3
             TypeParameter.Demo();
 
             TypeConstraints.Demo();
-            */
+
             AdvancedGenerics.Demo();
+            */
+            LimitationsOfGeneric.Demo();
         
         }
     }
