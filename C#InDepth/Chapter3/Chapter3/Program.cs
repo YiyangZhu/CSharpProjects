@@ -8,8 +8,10 @@ namespace Chapter3
         {
             /*
             DictionDemo.Demo();
+
+            TypeParameter.Demo();
             */
-            TypeParameter.Demo();          
+            TypeConstraints.Demo();
         }
     }
 }
