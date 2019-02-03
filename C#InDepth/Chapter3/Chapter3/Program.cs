@@ -10,8 +10,11 @@ namespace Chapter3
             DictionDemo.Demo();
 
             TypeParameter.Demo();
-            */
+
             TypeConstraints.Demo();
+            */
+            AdvancedGenerics.Demo();
+        
         }
     }
 }
