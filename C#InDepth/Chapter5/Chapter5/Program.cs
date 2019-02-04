@@ -8,8 +8,10 @@ namespace Chapter5
         {
             /*
             DelegateDemo.Demo();
+
+            ReturnTypeDelegates.Demo();
             */
-            ReturnTypeDelegates.Demo();          
+            InlineDelegate.Demo();
         }
     }
 }
