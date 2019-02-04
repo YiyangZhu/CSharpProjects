@@ -6,7 +6,10 @@ namespace Chapter5
     {
         static void Main(string[] args)
         {
+            /*
             DelegateDemo.Demo();
+            */
+            ReturnTypeDelegates.Demo();          
         }
     }
 }
