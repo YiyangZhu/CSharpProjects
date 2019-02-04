@@ -46,6 +46,12 @@ namespace Chapter4
             DateTime? death;
             string name;
 
+            //use the null coalescing operator to make the code straightfoward
+            /*
+            Address contact = user.ContactAddress ?? order.ShippingAddress ?? user.BillingAddress;
+             */           
+
+
             public TimeSpan Age
             {
                 get

@@ -8,8 +8,11 @@ namespace Chapter4
         {
             /*
             SystemNullable.Demo();
+           
+            CSharp2.Demo();
             */
-            CSharp2.Demo();          
+            NovelUseOfNullable.Demo();
+
         }
     }
 }
