@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Chapter5
 {
@@ -39,6 +40,7 @@ namespace Chapter5
             printRoot(2);
             printReverse("Hello World");
             printMean(new double[] { 1.5, 4.5, 5 });
+
         }
 
     }

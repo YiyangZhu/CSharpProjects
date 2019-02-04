@@ -10,8 +10,11 @@ namespace Chapter5
             DelegateDemo.Demo();
 
             ReturnTypeDelegates.Demo();
-            */
+
             InlineDelegate.Demo();
+            */
+            CaptureVariableInAnonymousMethod.Demo();
+        
         }
     }
 }
