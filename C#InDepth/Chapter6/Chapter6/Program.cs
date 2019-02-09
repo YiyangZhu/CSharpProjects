@@ -8,8 +8,10 @@ namespace Chapter6
         {
             /*
             HandIteration.Demo();
+
+            IterationWithYield.Demo();
             */
-            IterationWithYield.Demo();          
+            RealLifeIteratorExample.Demo();
         }
     }
 }
