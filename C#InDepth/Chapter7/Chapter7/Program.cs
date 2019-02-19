@@ -13,6 +13,7 @@ namespace Chapter7
             public void Method1(StringHelper x){}
             public Stringhelper Method1() {return null;}
             List<StringHelper> x = new List<StringHelper>();
+            */          
 
         }
     }
