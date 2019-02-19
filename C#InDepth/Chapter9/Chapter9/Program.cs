@@ -14,8 +14,14 @@ namespace Chapter9
             Demo3();
 
             Film.Demo();
+                      
+            ExpressionTree.Demo();
+
+            ExpressionTree.Demo2();
             */
-       
+            ExpressionTree.Demo3();
+
+
 
         }
 
