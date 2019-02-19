@@ -25,6 +25,12 @@ namespace Chapter8
             Name = name;
         }
 
+        public PersonTwo(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+
         public void Demo()
         {
             PersonTwo tom1 = new PersonTwo();
@@ -114,6 +120,27 @@ namespace Chapter8
                 totalAge += person.Age;
             }
             Console.WriteLine("Total age: {0}", totalAge);
+        }
+
+        public static void DemoThree()
+        {
+            List<PersonTwo> family = new List<PersonTwo>
+            {
+                new PersonTwo { Name = "Holly", Age = 36 },
+                new PersonTwo { Name = "Jon", Age = 36 },
+                new PersonTwo { Name = "Tom", Age = 9 },
+                new PersonTwo { Name = "Robin", Age = 6 },
+                new PersonTwo { Name = "William", Age = 6}
+            };
+
+            var converted = family.ConvertAll(delegate (PersonTwo person)
+            {
+                return new { person.Name, IsAdult = (person.Age >= 18) };
+            });
+            foreach(var person in converted)
+            {
+                Console.WriteLine("{0} is an adult? {1}", person.Name, person.IsAdult);
+            }
         }
 
         public class Location

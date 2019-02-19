@@ -6,7 +6,11 @@ namespace Chapter8
     {
         static void Main(string[] args)
         {
+            /*
             PersonTwo.DemoTwo();
+            */
+
+            PersonTwo.DemoThree();          
         }
     }
 }
