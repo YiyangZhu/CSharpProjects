@@ -10,8 +10,12 @@ namespace Chapter9
             Demo();
 
             Demo2();
-            */
+
             Demo3();
+
+            Film.Demo();
+            */
+       
 
         }
 
