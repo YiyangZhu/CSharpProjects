@@ -18,8 +18,21 @@ namespace Chapter9
             ExpressionTree.Demo();
 
             ExpressionTree.Demo2();
-            */
+
             ExpressionTree.Demo3();
+
+            TypeInference.Demo();
+
+            TypeInference.Demo2();
+
+            TypeInference.Demo3();
+
+            TypeInference.Demo4();
+
+            TypeInference.Demo5();
+            */
+            TypeInference.Demo6();
+
 
 
 
