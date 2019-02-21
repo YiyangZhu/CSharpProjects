@@ -8,9 +8,13 @@ namespace Chapter10
         {
             /*
             StreamUtil.Demo();
+
+            ExtensionMethodInNet3.Demo();
+
+            ExtensionMethodInNet3.Demo2();
             */
-            NullUtil.Demo();   
-              
+            ExtensionMethodInNet3.Demo3();
+
         }
     }
 }
