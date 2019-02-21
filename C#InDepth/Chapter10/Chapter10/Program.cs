@@ -21,6 +21,7 @@ namespace Chapter10
 
             ExtensionMethodInNet3.Demo6();
             */
+            ExtensionMethodInNet3.Demo7();
 
         }
     }

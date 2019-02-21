@@ -80,5 +80,17 @@ namespace Chapter10
 
         }
 
+        public static void Demo7()
+        {
+            var collection = Enumerable.Range(-4, 9)
+                .Select(x => new { Original = x, Square = x * x })
+                .OrderBy(x => x.Square)
+                .ThenByDescending(x => x.Original);
+            foreach (var v in collection)
+            {
+                Console.WriteLine(v);
+            }
+        }
+
     }
 }
