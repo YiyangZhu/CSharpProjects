@@ -20,8 +20,11 @@ namespace Chapter10
             ExtensionMethodInNet3.Demo5();
 
             ExtensionMethodInNet3.Demo6();
-            */
+
             ExtensionMethodInNet3.Demo7();
+            */
+            Company c = new Company();
+            c.Demo();
 
         }
     }
