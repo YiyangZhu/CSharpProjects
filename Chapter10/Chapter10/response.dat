@@ -1,0 +1,3774 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 ie"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 ie"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 ie"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9 ie"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+<head>
+    
+    
+
+    <meta property="og:title" content="Manning Publications"/>
+    <meta property="og:site_name" content="Manning Publications"/>
+    <meta property="og:description" content="Manning is an independent publisher of computer books for all who are professionally involved with the computer business."/>
+    <meta property="og:image" content="/assets/logo-tagline-3e45dce74f5483a207937abb3f62e09e.png"/>
+
+    <meta name="twitter:title" content="Manning Publications"/>
+    <meta name="twitter:description" content="Manning is an independent publisher of computer books for all who are professionally involved with the computer business."/>
+    <meta name="twitter:image" content="/assets/logo-tagline-3e45dce74f5483a207937abb3f62e09e.png"/>
+
+    <meta name="msapplication-TileColor" content=" #343434"/>
+    <meta name="msapplication-square70x70logo" content="/assets/favicon/windows-small-tile-6f6b7c9200a7af9169e488a11d13a7d3.png"/>
+    <meta name="msapplication-square150x150logo" content="/assets/favicon/windows-medium-tile-8fae4270fe3f1a6398f15015221501fb.png"/>
+    <meta name="msapplication-wide310x150logo" content="/assets/favicon/windows-wide-tile-a856d33fb5e508f52f09495e2f412453.png"/>
+    <meta name="msapplication-square310x310logo" content="/assets/favicon/windows-large-tile-072d5381c2c83afa924fe511a8f8b70a.png"/>
+
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-152-63d7a4c42a1ab2ef3d086d87b05927ef.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-touch-57-2e8fb7a5c223891fa5c18412d9404a71.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-touch-60-7197ba085923b0b044db8b8794f78cdb.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-touch-72-c4cbf5a6b8e457caf1ad1ca140d665a2.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-touch-76-b5c44f21c29654af29dc1b48dc2298ea.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-touch-114-3bac5249c6b59afe8cc25e03bae9bf55.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-touch-120-83869a0805357689e3f663cb2518b9e4.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-touch-144-e5fd09012ba209ad454ca64136c3a5c2.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-touch-152-63d7a4c42a1ab2ef3d086d87b05927ef.png">
+
+    <style>
+        
+            
+                .bundle-hub-homepage-deep-learning {
+                    background-color: #71a70b;
+                }
+                .bundle-hub-homepage-deep-learning:hover {
+                    text-decoration: none;
+                    color: white !important;
+                    background-color: #165016;
+                }
+            
+        
+    </style>
+
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-59QHSR4');</script>
+    
+
+    
+    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"26032741"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+    
+
+    
+    <script>(function(c,o,n,v,e,r,t,s){s=c.fetch?'f':'', c.ccartObj=e,c[e]=c[e]||function(){(c[e].q=c[e].q||[]).push(arguments)},c[e].t=Date.now(), r=o.createElement(n);r.async=1;r.src=v+s+'.js';t=o.getElementsByTagName(n)[0];t.parentNode.insertBefore(r,t)})(window, document,'script','//cdn.convertcart.com/72486907','ccart')</script>
+    
+
+    <!-- Page hiding snippet -->
+    
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+        h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+        {'GTM-59QHSR4':true});</script>
+
+    
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link rel="shortcut icon" href="/assets/favicon/favicon-06c8d32da14f50950f2c6422e9af1731.png" type="image/png">
+
+    <meta name="application-name" content="Home"/>
+    <meta name="apple-mobile-web-app-title" content="Home"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i|Zilla+Slab:300,300i,500,500i,&amp;subset=latin-ext' rel='stylesheet' type='text/css'>
+    <title>Manning | Home</title>
+    <link rel="stylesheet" href="/assets/application-96f5a927d414d478694c9261036a3ab6.css"/>
+
+    <script type="text/javascript">
+        document.write(unescape("%3Cscript id='pap_x2s6df8d' src='" + (("https:" == document.location.protocol) ? "https://" : "http://") +
+                "manning.postaffiliatepro.com/scripts/trackjs.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        PostAffTracker.setAccountId('default1');
+        try {
+            PostAffTracker.track();
+        } catch (err) { }
+    </script>
+    <!-- Hotjar Tracking Code -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:784152,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <script type="text/javascript">
+
+        var searchServerVars = {
+            deploymentType: "production",
+            coverImage: "\u002fassets\u002fcover-c0e554e9d065ae2e5b8b43d622fb8b95.png",
+            livebookId: "",
+            videoId: ""
+        }
+    
+</script>
+
+    <!-- Facebook Pixel Code -->
+    <script type="text/javascript">
+
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1940497162877014');
+        fbq('track', 'PageView');
+    
+</script>
+
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=1940497162877014&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body id="top" class="nav-index nav-homepage show-dotd-bar homepage-a">
+<script type="text/javascript" src="/assets/application-8a825c4e53f8133f7497a99802280f8b.js" ></script>
+
+<!--Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59QHSR4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!--End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+<header id="header">
+    
+    
+        <a href="/dotd" class="visible-xs deal-of-the-day deal-of-the-day-animated">
+            <div class="container">
+                <span class="far fa-clock"></span>
+                <label>DotD:</label>
+                <span class="deal-of-the-day-link" uri="/dotd">
+                    <em class="deal-of-the-day-brief">Get Half off CSS in JavaScript - use code dotd022119</em>
+                </span>
+            </div>
+        </a>
+    
+    <nav class="navbar navbar-default navbar-static-top" id="top-nav">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header navbar-branded-xs visible-xs">
+
+                <div class="brand-wrapper">
+                    <a href="/" class="navbar-brand">
+                        <img src="/assets/logo-044c1fdfbef2b63064d6f4999d51f496.svg" alt="Manning Publications Logo" />
+                        <span class="sr-only">Manning publications</span>
+                    </a>
+                </div>
+                <button type="button" class="navbar-menu-toggle navbar-toggle collapsed menu-button"
+                        data-toggle="collapse" data-target="#primary-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/cart" class="navbar-cart-xs cart-button">
+                    <span class="fa fa-shopping-cart"></span>
+                    <span class="header-cart-count"></span>
+                </a>
+            </div>
+
+            <div id="xs-search" class="visible-xs">
+                <form class="navbar-form xs-search-form visible-xs" id="mobile-search-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input name="q" type="search" autocomplete="off" class="form-control" placeholder="search">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="fa fa-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <div class="search-menu-wrapper">
+                    <div class="search-menu-results-container"></div>
+                </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="primary-navbar">
+                <ul class="nav navbar-nav">
+                    
+                    
+                    <li class="hidden-xs nav-home"><a href="/">home</a></li>
+                    <li class="nav-account visible-xs "><a href="/dashboard" class="dashboard-link">dashboard</a></li>
+                    <li class="nav-account visible-xs signout-link" style="display: none;">
+                        <a href="https://login.manning.com/logout?service=https://www.manning.com/logout">sign out</a>
+                    </li>
+                    <li class="nav-catalog"><a href="/catalog">all products</a></li>
+                    <li class="nav-meaps"><a href="/meap-catalog">MEAP</a></li>
+                    <li class="nav-livevideo"><a href="/livevideo-program">liveVideo</a></li>
+                    
+                        <li class="nav-livebook"><a href="/livebook-program">liveBook</a></li>
+                    
+                    <li class="nav-liveaudio"><a href="/liveaudio-landing">liveAudio</a></li>
+                    <li class="nav-support"><a href="/support">support</a></li>
+                    
+                    <li class="nav-divider hidden-sm hidden-xs" role="separator"></li>
+                    <li class="nav-freeContent hidden-sm"><a href="http://freecontent.manning.com">free content</a></li>
+                    <li class="nav-forums hidden-sm"><a href="http://forums.manning.com/">forums</a></li>
+                </ul>
+                <ul class="hidden-xs nav navbar-nav navbar-right">
+                    <li class="nav-account"><a href="/dashboard" class="dashboard-link">dashboard</a></li>
+                    <li class="nav-account signout-link" style="display: none;">
+                        <a href="https://login.manning.com/logout?service=https://www.manning.com/logout">sign out</a>
+                    </li>
+                    <li class="nav-cart">
+                        <a href="/cart" class="cart-button">
+                            <span class="fa fa-shopping-cart"></span>
+                            <span class="header-cart-count"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+    <div class="container hidden-xs big-bit">
+        <div class="row">
+            <a href="/" class="header-brand">
+            </a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top navbar-inverse hidden-xs big-bit">
+        <div class="container">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="secondary-navbar">
+                <div class="secondary-navbar-wrapper">
+                    <div class="col-lg-6 col-sm-8">
+                        <form class="navbar-form form-horizontal" id="desktop-search-form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-btn search-back-btn-container">
+                                        <button class="btn btn-default search-back-btn">
+                                            <span class="fa fa-arrow-left"></span>
+                                        </button>
+                                    </span>
+                                    <input id="navbar-search" name="q" type="search" class="form-control" autocomplete="off"
+                                           placeholder="search">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default search-btn" type="submit">
+                                            <span class="fa fa-search"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div id="search-drop-down"></div>
+                        </form>
+                    </div>
+                    <div class="col-lg-push-2 col-lg-4 col-sm-4 ">
+                        <ul class="nav navbar-nav navbar-social">
+                            <li title="Mail Preferences"><a href="/mail-preferences" tabindex="-1"><span
+                                        class="far fa-newspaper"></span><span aria-hidden="true"
+                                                                               class="hidden">Mail Preferences</span></a>
+                            </li>
+                            <li title="Manning on Facebook"><a href="https://www.facebook.com/ManningBooks?ref=nf" tabindex="-1"><span
+                                        class="fab fa-facebook-f"></span><span aria-hidden="true"
+                                                                            class="hidden">Manning on Facebook</span></a>
+                            </li>
+                            <li title="Manning on Twitter"><a href="https://twitter.com/manningbooks" tabindex="-1"><span
+                                        class="fab fa-twitter"></span><span aria-hidden="true"
+                                                                           class="hidden">Manning on Twitter</span></a>
+                            </li>
+                            <li title="Manning on YouTube"><a href="https://www.youtube.com/channel/UCDia_lkNYKLJVLRLQl_-pFw" tabindex="-1"><span
+                                        class="fab fa-youtube"></span><span aria-hidden="true"
+                                                                                class="hidden">Manning on YouTube</span></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /.navbar-collapse -->
+            <div class="search-menu-wrapper">
+                <div class="search-menu-results-container"></div>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+    
+        <a href="/dotd" class="hidden-xs deal-of-the-day deal-of-the-day-animated">
+            <div class="container">
+                <span class="far fa-clock"></span>
+                <label>DEAL OF THE DAY:</label>
+                <span class="deal-of-the-day-link" id="dotd-link-non-mobile">
+                    <em class="deal-of-the-day-brief">Get Half off CSS in JavaScript - use code dotd022119</em>
+                </span>
+            </div>
+        </a>
+    
+    <div id="search-modal" class="search-modal" style="display:none">
+        <div class="search-react-container"></div>
+    </div>
+</header>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+    if (typeof jQuery !== 'undefined') {
+        (function ($) {
+            $.get("/cart/currentCartCount.json")
+                .done(function(data) {
+                    $(".header-cart-count").text(data['cartCount']);
+                    if (data['wishlistProductIds']) {
+                        $(".wishlist-container").each(function() {
+                            if (data.wishlistProductIds.indexOf($(this).find('.wishlist-toggle').data('product-id')) > -1) {
+                                $(this).addClass("on-wishlist");
+                            }
+                        });
+                    }
+                    if (data['userLoggedIn']) {
+                        $(".signout-link").show();
+                        
+                            $(".buy-now-sign-in-container").hide();
+                            if (data['digitalBuyNow'] || data['physicalBuyNow']) {
+                                $(".digital-buy-now").show();
+
+                                // We'll gather shipping details if necessary when they try it.
+                                $(".physical-buy-now").show();
+                                
+                            } else {
+                                    $(".buy-now-add-cc").show();
+                                
+                            }
+                        
+                        $("body").addClass("logged-in");
+                    } else {
+                        $(".dashboard-link").text("sign in");
+                        
+                            $(".buy-now-sign-in").show();
+                        
+                    }
+                });
+        })(jQuery);
+
+        
+        (function(d) { if (document.addEventListener) document.addEventListener('ltkAsyncListener', d);
+        else {e = document.documentElement; e.ltkAsyncProperty = 0; e.attachEvent('onpropertychange', function (e) {
+            if (e.propertyName == 'ltkAsyncProperty'){d();}});}})(function() {
+            _ltk.Activity.AddPageBrowse();
+            _ltk.Activity.Submit();
+        });
+        
+    }
+</script>
+
+
+
+    <div class="container content-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-lg-3 visible-lg">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-6">
+                                
+
+
+
+
+<div class="free-content">
+    <div class="title"><a href="http://freecontent.manning.com">Free Content Center</a></div>
+
+    
+        <div class="description">Articles based on books in progress</div>
+        <div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/the-randomcutforest-algorithm/">The Random Cut Forest Algorithm</a>
+                    </div>
+                </div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/building-linear-models-with-dask-ml/">Building Linear Models with Dask ML</a>
+                    </div>
+                </div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/istio-gateway/">Istio Gateway</a>
+                    </div>
+                </div>
+            
+        </div>
+    
+</div>
+
+                                <div class="perm-ebook-ad">
+                                    <a href="/ebooks">
+                                        <div class="mid">FREE eBOOK</div>
+                                        Buy a Manning pBook anywhere, get the eBook free here.
+                                    </a>
+                                </div>
+                                <div class="perm-dotd-ad">
+                                    <a href="/mail-preferences">
+                                        <div class="top">sign up for</div>
+                                        <div class="mid">Deal of the Day,</div>
+                                        <div class="mid">Weekly Newsletters</div>
+                                        <div class="bottom">and more</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-6">
+                                <div class="did-you-know">
+                                    <a href="/why-buy-from-manning#section-upgrades">
+                                        <div class="title">DID YOU KNOW?</div>
+                                        <div class="subtitle">upgrades</div>
+                                        an eBook can be upgraded to a pBook for just $12 + shipping.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+<div class="twitter-box">
+    <div class="twitter-title"><a href="https://twitter.com/ManningBooks">@ManningBooks</a></div>
+    
+        
+        <div class="tweet-box">
+            <div class="tweet">
+                Deal of the Day Feb 21: CSS in JavaScript! Use code dotd022119tw at <a href='https://t.co/Pz312nbJr1'>bit.ly/2tuaXz5</a> <a href='http://www.twitter.com/SchauDustin'>@SchauDustin</a> <a href='https://twitter.com/hashtag/css?src=hash'>#css</a>… <a href='https://t.co/bzxAQN3DAu'>twitter.com/i/web/status/1…</a>
+            </div>
+            <div class="relative-time">
+                <a href="https://twitter.com/ManningBooks/status/1098598064938463233">12 minutes ago</a>
+            </div>
+        </div>
+    
+        
+        <div class="tweet-box">
+            <div class="tweet">
+                RT <a href='http://www.twitter.com/LambdaDays'>@LambdaDays</a>: Use the code "ctwlambdadays19" to get a 40% discount from our partner <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a>. Also check out your <a href='https://twitter.com/hashtag/LambdaDays?src=hash'>#LambdaDays</a> <a href='https://twitter.com/hashtag/Whova?src=hash'>#Whova</a>…
+            </div>
+            <div class="relative-time">
+                <a href="https://twitter.com/ManningBooks/status/1098593825415675904">29 minutes ago</a>
+            </div>
+        </div>
+    
+</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-8 col-lg-5">
+                        <div class="hero-slider-wrapper">
+                            <div class="aspect-wrapper">
+                                <div id="hero-slider" class="carousel slide" data-ride="carousel" data-interval="7500">
+                                    <div class="carousel-inner" role="listbox">
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/docker-in-practice-second-edition" class="item active" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/b/e65fd1d-de51-4e83-b236-184eac2c1423/DOTD_Release_Docker-2ed.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/serverless-applications-with-node-js" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/8/a99d5b7-1012-4ea2-8a3d-814c557cd5d6/DOTD_Release_SAN.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/5/95a182b-2da1-4694-823b-69f6fba7d64d/DOTD_Release_C.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/code-like-a-pro" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/a/5171f79-5c1a-4711-a8a5-6099b3325d63/DOTD_NewMEAP_Code.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/get-programming-with-node-js" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/0/e84cb07-b319-4e3d-8cf3-61a572aa24c3/NewRelease-Wexler-NodeJS.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/grokking-deep-learning" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/7/c3fc158-55c1-4f93-b670-945869ada492/NewRelease_Trask.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/graph-databases-in-action" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/2/eb15341-4046-4ceb-80cd-77b6e2e458f1/DOTD_NewMEAP_GraphD.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/python-for-big-datasets" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/0/5bcce49-d84a-431f-85d3-ad3c94ea6262/DOTD_NewMEAP_Python.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    <div class="carousel-controls">
+                                        <a class="left carousel-control" href="#hero-slider" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#hero-slider" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 pull-right">
+                        
+                        
+
+<div class="well homepage-product-range-count-box homepage-meap-count-box" data-toggle="modal" data-target="#meap-section-modal">
+    <div class="homepage-product-range-count-box-sm">
+        <div class="homepage-product-range-count-box-sm-left">
+            
+            <span class="homepage-product-range-count-box-banner">
+                <img src="/assets/meap-filled-marginless-b91a48282f8d7eb41c5d388d019cfe5e.svg" class="product-range-badge"/>
+                
+                    <span class="homepage-product-range-count"><span class="digit">7</span><span class="bar"></span></span>
+                
+                    <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
+                
+            </span>
+            
+        </div>
+        <div class="homepage-product-range-count-box-sm-right">
+            <div class="homepage-product-range-count-box-title">
+                
+                Manning Early Access Program
+            </div>
+            <div class="homepage-product-range-count-footer">
+                
+                    
+                
+                <p>
+                    In MEAP, you read a book chapter-by-chapter while it's being written and get the final book as soon as it's finished.
+                </p>
+            </div>
+        </div>
+    </div>
+    <span class="btn btn-default wide-button proper-name">all 71 MEAPs</span>
+</div>
+
+<!-- Modal -->
+<div class="modal product-range-homepage-modal meap-homepage-modal fade" id="meap-section-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="modal-product-range-quote">
+                    <button type="button" class="product-range-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <a href="/meap-catalog" class="homepage-product-range-count-box-banner">
+                        <img src="/assets/meap-filled-marginless-b91a48282f8d7eb41c5d388d019cfe5e.svg" class="product-range-badge"/>
+                        
+                            <span class="homepage-product-range-count"><span class="digit">7</span><span class="bar"></span></span>
+                        
+                            <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
+                        
+                    </a>
+                
+                </div>
+
+                
+                    
+                     <!-- we need the total items PLUS the total tags because each takes up a physical row -->
+                    
+
+                    <div class="row product-ranges">
+                        <div class="col-md-6">
+                            
+                                <div class="tag tag-one-in-column">Data</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/data-science-at-scale-with-python-and-dask">
+                                        <div class="title">Data Science at Scale with Python and Dask</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/deep-learning-crash-course">
+                                        <div class="title">Deep Learning Crash Course</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/deep-learning-for-natural-language-processing">
+                                        <div class="title">Deep Learning for Natural Language Processing</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/deep-learning-for-search">
+                                        <div class="title">Deep Learning for Search</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/deep-learning-with-javascript">
+                                        <div class="title">Deep Learning with JavaScript</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/deep-learning-with-pytorch">
+                                        <div class="title">Deep Learning with PyTorch</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/deep-learning-with-r-in-motion">
+                                        <div class="title">Deep Learning with R in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/deep-reinforcement-learning-in-action">
+                                        <div class="title">Deep Reinforcement Learning in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/event-streams-in-action">
+                                        <div class="title">Event Streams in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/fusion-in-action">
+                                        <div class="title">Fusion in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/gans-in-action">
+                                        <div class="title">GANs in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/graph-databases-in-action">
+                                        <div class="title">Graph Databases in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/graph-powered-machine-learning">
+                                        <div class="title">Graph-Powered Machine Learning</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/grokking-deep-learning-for-computer-vision">
+                                        <div class="title">Grokking Deep Learning for Computer Vision</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/grokking-deep-learning-in-motion">
+                                        <div class="title">Grokking Deep Learning in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/grokking-deep-reinforcement-learning">
+                                        <div class="title">Grokking Deep Reinforcement Learning</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/kafka-in-action">
+                                        <div class="title">Kafka in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/machine-learning-for-business">
+                                        <div class="title">Machine Learning for Business</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/machine-learning-for-mere-mortals">
+                                        <div class="title">Machine Learning for Mere Mortals</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/natural-language-processing-in-action">
+                                        <div class="title">Natural Language Processing in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/practical-data-science-with-r-second-edition">
+                                        <div class="title">Practical Data Science with R, Second Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/python-for-big-datasets">
+                                        <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>Python for Big Datasets</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/spark-in-action-second-edition">
+                                        <div class="title">Spark in Action, Second Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/spark-in-motion">
+                                        <div class="title">Spark in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/the-art-of-data-usability">
+                                        <div class="title">The Art of Data Usability</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">Development</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/c-sharp-in-depth-fourth-edition">
+                                        <div class="title">C# in Depth, Fourth Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/classic-computer-science-problems-in-python">
+                                        <div class="title">Classic Computer Science Problems in Python</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/clojure-the-essential-reference">
+                                        <div class="title">Clojure</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/code-like-a-pro">
+                                        <div class="title">Code Like a Pro</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/elm-in-action">
+                                        <div class="title">Elm in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/get-programming-with-python-in-motion">
+                                        <div class="title">Get Programming with Python in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/graphql-in-motion">
+                                        <div class="title">GraphQL in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/grokking-functional-programming">
+                                        <div class="title">Grokking Functional Programming</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/haskell-in-depth">
+                                        <div class="title">Haskell in Depth</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/modern-fortran">
+                                        <div class="title">Modern Fortran</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/phoenix-in-action">
+                                        <div class="title">Phoenix in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/programmers-guide-to-apache-thrift">
+                                        <div class="title">Programmer&#39;s Guide to Apache Thrift</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/rust-in-action">
+                                        <div class="title">Rust in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/rust-in-motion">
+                                        <div class="title">Rust in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/secure-by-design">
+                                        <div class="title">Secure by Design</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/the-design-of-everyday-apis">
+                                        <div class="title">The Design of Everyday APIs</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/the-well-grounded-rubyist-third-edition">
+                                        <div class="title">The Well-Grounded Rubyist, Third Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/typescript-quickly">
+                                        <div class="title">TypeScript Quickly</div>
+                                    </a>
+
+                                    
+                                    
+                                        
+                                        
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                                
+                                                
+                                                
+                                                    
+                                                
+                                                
+                                                    
+                                                
+                                                
+                                                    
+                                                
+                                                
+                                                    
+                                                
+                                                
+                                                    
+                                                
+                                            
+                                        
+                                        
+                                            
+                                        
+                                    
+                                
+                            
+                                <div class="tag tag-one-in-column">Devices</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/flutter-in-action">
+                                        <div class="title">Flutter in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/hello-swift">
+                                        <div class="title">Hello Swift!</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/react-native-in-action">
+                                        <div class="title">React Native in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/rxjava-for-android-developers">
+                                        <div class="title">RxJava for Android Developers</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">General</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/building-ethereum-dapps">
+                                        <div class="title">Building Ethereum Đapps</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/ethereum-dapps-in-motion">
+                                        <div class="title">Ethereum DApps in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/grokking-bitcoin">
+                                        <div class="title">Grokking Bitcoin</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">Java/JVM</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/get-programming-with-clojure">
+                                        <div class="title">Get Programming with Clojure</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/get-programming-with-java">
+                                        <div class="title">Get Programming with Java</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/get-programming-with-scala">
+                                        <div class="title">Get Programming with Scala</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/spark-in-action-second-edition">
+                                        <div class="title">Spark in Action, Second Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/the-java-module-system">
+                                        <div class="title">The Java Module System</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/the-joy-of-kotlin">
+                                        <div class="title">The Joy of Kotlin</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/vertx-in-action">
+                                        <div class="title">Vert.x in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">Microsoft &amp; .NET</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/dependency-injection-principles-practices-patterns">
+                                        <div class="title">Dependency Injection Principles, Practices, and Patterns</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/reactive-applications-with-akka-net">
+                                        <div class="title">Reactive Applications with Akka.NET</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">Operations &amp; Cloud</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/cloud-native">
+                                        <div class="title">Cloud Native</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/docker-in-action-second-edition">
+                                        <div class="title">Docker in Action, Second Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/istio-in-action">
+                                        <div class="title">Istio in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/linux-in-motion">
+                                        <div class="title">Linux in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/livevideo/production-ready-serverless">
+                                        <div class="title">Production-Ready Serverless</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/serverless-architectures-on-aws-second-edition">
+                                        <div class="title">Serverless Architectures on AWS, Second Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/vertx-in-action">
+                                        <div class="title">Vert.x in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/voice-applications-for-alexa-and-google-assistant">
+                                        <div class="title">Voice Applications for Alexa and Google Assistant</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/voice-first-development">
+                                        <div class="title">Voice-First Development</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">Programming</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/math-for-programmers">
+                                        <div class="title">Math for Programmers</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">R</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/livevideo/deep-learning-with-r-in-motion">
+                                        <div class="title">Deep Learning with R in Motion</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/practical-data-science-with-r-second-edition">
+                                        <div class="title">Practical Data Science with R, Second Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                                <div class="tag ">Web</div>
+                                
+
+                                
+                                    
+
+                                    <a href="/books/getting-mean-with-mongo-express-angular-and-node-second-edition">
+                                        <div class="title">Getting MEAN with Mongo, Express, Angular, and Node, Second Edition</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/http2-in-action">
+                                        <div class="title">HTTP/2 in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/phoenix-in-action">
+                                        <div class="title">Phoenix in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/the-design-of-everyday-apis">
+                                        <div class="title">The Design of Everyday APIs</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/typescript-quickly">
+                                        <div class="title">TypeScript Quickly</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/web-components-in-action">
+                                        <div class="title">Web Components in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                                    
+
+                                    <a href="/books/webassembly-in-action">
+                                        <div class="title">WebAssembly in Action</div>
+                                    </a>
+
+                                    
+                                    
+                                
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                <a href="/meap-catalog" class="btn btn-meap btn-sm proper-name">MEAP catalog</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        
+
+<div class="well homepage-product-range-count-box homepage-livevideo-count-box" data-toggle="modal" data-target="#livevideo-section-modal">
+    <div class="homepage-product-range-count-box-sm">
+        <div class="homepage-product-range-count-box-sm-left">
+            <span class="homepage-product-range-count-box-banner">
+            
+                <img src="/assets/livevideo-filled-marginless-4b4fc302a7ea31f3d7be360b915049da.svg" class="product-range-badge"/>
+                
+                
+                    <span class="homepage-product-range-count"><span class="digit">2</span><span class="bar"></span></span>
+                
+                    <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
+                
+            
+            </span>
+        </div>
+        <div class="homepage-product-range-count-box-title" ><!-- Empty --></div>
+        <div class="homepage-product-range-count-box-sm-right">
+            <div class="homepage-product-range-count-footer">
+                
+                    
+                
+                <p>
+                    liveVideos are online courses with tests, exercises, and code tryouts alongside. This is a just-released platform to learn and grow your skills.
+                </p>
+            </div>
+        </div>
+    </div>
+    <span class="btn btn-default wide-button proper-name" >all 28 liveVideos</span>
+</div>
+
+<!-- Modal -->
+<div class="modal product-range-homepage-modal livevideo-homepage-modal fade" id="livevideo-section-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-product-range-quote">
+                    <button type="button" class="product-range-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <a href="/livevideo-catalog" class="homepage-product-range-count-box-banner">
+                        <img src="/assets/livevideo-filled-marginless-4b4fc302a7ea31f3d7be360b915049da.svg" class="product-range-badge"/>
+                            
+                            
+                                <span class="homepage-product-range-count"><span class="digit">2</span><span class="bar"></span></span>
+                            
+                                <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
+                            
+                    </a>
+                </div>
+
+                <div class="row product-ranges">
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/graphql-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/c/547b25b-13fe-4f09-b9c0-19c893efcb26/livevideo-graphql-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/machine-learning-for-mere-mortals" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/9/b3ff35f-d04f-414c-8f53-f947ad1a57bc/livevideo-machine-learning-for-mere-mortals-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/spark-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/1/ef12711-cbb1-43b7-a2bf-713108e1aa99/livevideo-product-kolter_meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/deep-learning-with-r-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/a/ab30261-7928-412d-94b6-597f4044986c/livevideo-deep-learning-with-r-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/linux-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/2/e9382af-6109-4662-92cf-cde0ead860ad/livevideo-linux-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/deep-learning-crash-course" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/7/61f806a-747f-46c7-9522-c1ec7042f5b3/livevideo-deep-learning-crash-course-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/ethereum-dapps-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/9/895e1bb-251d-49bc-aa97-09ab29e586bd/livevideo-ethereum-dapps-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/rust-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/2/4e48798-b5df-4291-8792-b331c7f0dd76/livevideo-rust-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/get-programming-with-python-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/e/49ed17d-305f-446f-bdcc-a176049b9bef/livevideo-get-programming-with-python-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/production-ready-serverless" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/2ea39e5-bcd1-42f0-a764-3d6890758541/livevideo-production-ready-serverless-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/grokking-deep-learning-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/9/a3e885a-9a71-4955-9970-98c35e6faaf8/livevideo-grokking-deep-learning-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/the-ultimate-introduction-to-big-data" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/fb005bd-e7e1-47be-b369-c3420a2ecb95/livevideo-the-ultimate-introduction-to-big-data.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/css-in-javascript-with-styled-components-and-react" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/3/cf80a6b-8191-466c-9f7f-8fdbccf2b2de/livevideo-css-in-javascript-with-styled-components-and-react.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/reinforcement-learning-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/c/8882b4f-fd0a-49b9-ae8f-2b18b57852f6/livevideo-reinforcement-learning-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/ios-development-with-swift-lv" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/0/653289b-29f1-48f4-914c-88c3db85a086/livevideo-ios-development-with-swift-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/aws-machine-learning-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/f/a8e7770-fa42-4d8b-adb1-e0a4e0a5da94/livevideo-aws-machine-learning-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/learning-clientside-graphql-with-apollo" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/5/b433e1a-2b42-4871-a409-8257476055fb/livevideo-learning-clientside-graphql-with-apollo.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/react-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/6/4991c2a-b4a8-4e71-ab59-b24ec48e7285/livevideo-react-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/docker-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/a/fb72709-cc23-46c9-bee3-098326b044d5/livevideo-product-fisher.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/css-in-depth-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/2/8a0dce1-1e57-4ea4-9bb5-14a4d7733e45/livevideo-css-in-depth-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/nodejs-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/3/e620f89-50e6-46ea-a300-b5d9cf22a01f/livevideo-nodejs-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/serverless-applications-with-AWS" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/9/f5b0c3e-70a7-4aee-b4b8-012fd1c2a367/livevideo-serverless-applications-with-aws.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/redux-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/6/0763b16-87d2-4190-aafe-baeedc97cddb/livevideo-redux-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/algorithms-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/0/2c21f42-45a0-484d-aa74-aad96ee1df8c/livevideo-product-beau-alt.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/keras-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/7/af27682-f5d0-4f50-b85a-36715122fc3d/livevideo-product-vanboxel.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/aws-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/deae4a3-eda4-4b61-b009-84f9fe1edfcc/livevideo-product-wittig.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/sql-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/4/a9f98d5-4ac8-43f8-8f41-5847c327de22/livevideo-product-brumm.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/es6-in-motion" class="video-item-image-link">
+                                    
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/0/f214ea1-3ced-4a57-aa72-a9e69a4677b1/livevideo-product-higbee.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                </div>
+           </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                <a href="/livevideo-catalog" class="btn btn-livevideo btn-sm proper-name">liveVideo catalog</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        <div class="visible-md visible-sm">
+                            <div class="perm-ebook-ad">
+                                <a href="/ebooks">
+                                    <div class="mid">FREE eBOOK</div>
+                                    <span>
+                                        Buy a Manning pBook anywhere, get the eBook free here.
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="perm-dotd-ad">
+                                <a href="/mail-preferences">
+                                    <div class="top">sign up for</div>
+                                    <div class="mid">Deal of the Day,</div>
+                                    <div class="mid">Weekly Newsletters</div>
+                                    <div class="bottom">and more</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="news hidden-xs">
+                            <h1>News at Manning</h1>
+                            <div class="latest">
+                                MEAP updates, new products, author news
+                            </div>
+                            
+                                <div class="block-with-text brief"><b>02/21/2019</b> - Simplifying and visualizing explained in the newest modules of <a href="https://www.manning.com/livevideo/grokking-deep-learning-in-motion"><i>Grokking Deep Learning in Motion </i></a>.</div>
+                            
+                                <div class="block-with-text brief"><b>02/20/2019</b> - Two great new modules added to <a href="https://www.manning.com/livevideo/deep-learning-with-r-in-motion"><i>Deep Learning with R in Motion </i></a>.</div>
+                            
+                                <div class="block-with-text brief"><b>02/19/2019</b> - Using Neural networks is explained in the latest module in <a href="https://www.manning.com/livevideo/machine-learning-for-mere-mortals"><i>Machine Learning for Mere Mortals </i></a>.</div>
+                            
+                                <div class="block-with-text brief"><b>02/18/2019</b> - Jim Bennett, author of <a href="https://www.manning.com/books/xamarin-in-action"><i>Xamarin in Action</i></a> is the special guest of the latest episode of The .NET Core Podcast.</div>
+                            
+                                <div class="block-with-text brief"><b>02/17/2019</b> - Learn how to train reinforcement learning agents  in the newest Chapter of <a href="https://www.manning.com/books/grokking-deep-reinforcement-learning"><i>Grokking Deep Reinforcement Learning </i></a>.</div>
+                            
+                            <a href="/news" class="all-news">
+                                browse all news &raquo;
+                            </a>
+                        </div>
+
+                        <div class="write-for-us hidden-xs">
+                            <a href="/write-for-us">
+                                <div class="write">WRITE</div>
+                                <div class="for-us">for us</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-8 col-lg-5">
+                        <div class="new-releases homepage-clear-fix">
+                            <h1 class="proper-name">recent releases</h1>
+                            <div class="row">
+                                <div id="new-release-carousel" class="carousel slide" data-ride="carousel">
+                                    
+                                        
+                                            
+                                                
+                                                
+                                            
+                                            
+                                                
+                                                
+                                            
+                                        
+                                    
+                                    
+                                        <ol class="carousel-indicators">
+                                            
+                                                <li class="active" data-target="#new-release-carousel" data-slide-to="0"><div class="line"></div></li>
+                                            
+                                                <li class="" data-target="#new-release-carousel" data-slide-to="1"><div class="line"></div></li>
+                                            
+                                                <li class="" data-target="#new-release-carousel" data-slide-to="2"><div class="line"></div></li>
+                                            
+                                                <li class="" data-target="#new-release-carousel" data-slide-to="3"><div class="line"></div></li>
+                                            
+                                        </ol>
+                                    
+                                    <div class="carousel-inner" role="listbox">
+                                        
+                                            
+                                            <div class="item active">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/livevideo/the-ultimate-introduction-to-big-data" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/video/b/fb005bd-e7e1-47be-b369-c3420a2ecb95/livevideo-the-ultimate-introduction-to-big-data.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/python-for-big-datasets" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-meap">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Python for Big Datasets
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        John T. Wolohan
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/3/a186f77-1643-4129-9b71-541d4123f6d3/Wolohan-Python-MEAP-HI.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/serverless-applications-with-node-js" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Serverless Applications with Node.js
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Slobodan Stojanovi&#263; and Aleksandar Simovi&#263;<br/><i>Foreword by Gojko Adzic</i>
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/9/5c9a032-8367-412e-afe6-65b1bd742d70/Stojanovic-SAN-HI.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/get-programming-with-node-js" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Get Programming with Node.js
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Jonathan Wexler
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/2/7dbf42d-9edc-4613-bc57-111b429cc312/Wexler-NodeJS_hires.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/c-plus-plus-concurrency-in-action-second-edition" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        C++ Concurrency in Action, Second Edition
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Anthony Williams
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/0/c59ae93-31ff-4f88-b39d-07eae3461d44/Williams-CC-HI.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/docker-in-practice-second-edition" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Docker in Practice, Second Edition
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Ian Miell and Aidan Hobson Sayers
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/a/723c64b-6a3e-485b-932a-77b967e91d52/Miell-DockerP-2ed-HI.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/livevideo/css-in-javascript-with-styled-components-and-react" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/video/3/cf80a6b-8191-466c-9f7f-8fdbccf2b2de/livevideo-css-in-javascript-with-styled-components-and-react.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/code-like-a-pro" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-meap">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Code Like a Pro
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Dane Hillard
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/5/a3ca8f7-46af-4613-b48f-8aaf0d325c74/Hillard-Code-MEAP-HI.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/grokking-deep-learning" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Grokking Deep Learning
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Andrew W. Trask
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/1/831bea7-12bc-4438-91fa-b3af12e50b00/Trask_GDL_hires.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/graph-databases-in-action" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-meap">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Graph Databases in Action
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Dave Bechberger
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/3/2784ce7-35a7-4139-84e3-9f490d438a82/Bechberger-GD-MEAP-HI.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/livevideo/reinforcement-learning-in-motion" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/video/c/8882b4f-fd0a-49b9-ae8f-2b18b57852f6/livevideo-reinforcement-learning-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/practical-recommender-systems" class="book-cover-item-image-link">
+            
+
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Practical Recommender Systems
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Kim Falk
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/1/5ba0d41-9041-4084-9640-a9a935d159b9/Falk-PRS-HI.png')"
+             class="product-thumbnail">
+        </div>
+    
+
+
+
+
+
+        </a>
+    </div>
+    
+        
+            
+                
+                    
+                    
+                
+            
+        
+    
+</div>
+                                                    </div>
+                                                
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row visible-xs">
+                                <div class="col-xs-12">
+                                    <div class="perm-ebook-ad">
+                                        <a href="/ebooks">
+                                            <div class="mid">FREE eBOOK</div>
+                                            Buy a Manning pBook anywhere, get the eBook free here.
+                                        </a>
+                                    </div>
+                                    <div class="perm-dotd-ad">
+                                        <a href="/mail-preferences">
+                                            <div class="top">sign up for</div>
+                                            <div class="mid">Deal of the Day,</div>
+                                            <div class="mid">Weekly Newsletters</div>
+                                            <div class="bottom">and more</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                            <div class="bundles well">
+                                <h1>Tech in a Box Bundles</h1>
+                                <h2>Books and videos you need. One neat package.</h2>
+                                <p>
+                                    Manning's exclusive <em>Tech in a Box</em> bundles are discounted collections of what you need to enhance your skills in a variety of subject areas.
+                                </p>
+                                <div class="row">
+                                    <div id="bundles-carousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+                                        
+                                            <ol class="carousel-indicators">
+                                                
+                                                    <li class="active" data-target="#bundles-carousel" data-slide-to="0"><div class="line"></div></li>
+                                                
+                                                    <li class="" data-target="#bundles-carousel" data-slide-to="1"><div class="line"></div></li>
+                                                
+                                                    <li class="" data-target="#bundles-carousel" data-slide-to="2"><div class="line"></div></li>
+                                                
+                                            </ol>
+                                        
+                                        <div class="carousel-inner" role="listbox">
+                                            
+                                                
+                                                <div class="item active">
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/getting-started-with-deep-learning" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/getting-started-with-deep-learning.png" /></a>
+                                                        </div>
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/applied-deep-learning" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/applied-deep-learning.png" /></a>
+                                                        </div>
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/production-ready-deep-learning" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/production-ready-deep-learning.png" /></a>
+                                                        </div>
+                                                    
+                                                </div>
+                                            
+                                                
+                                                <div class="item">
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/getting-started-with-swift" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/getting-started-with-swift.png" /></a>
+                                                        </div>
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/getting-started-with-rust" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/getting-started-with-rust.png" /></a>
+                                                        </div>
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/new-directions" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/bundle-new-directions.png" /></a>
+                                                        </div>
+                                                    
+                                                </div>
+                                            
+                                                
+                                                <div class="item">
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/getting-started-with-reinforcement-learning" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/bundle-getting-started-with-reinforcement-learning.png" /></a>
+                                                        </div>
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/deep-learning-with-r" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/bundle-deep-learning-with-r.png" /></a>
+                                                        </div>
+                                                    
+                                                        <div class="col-xs-4">
+                                                            <a href="/bundles/getting-started-with-deep-learning" class="bundle-item-image-link"><img class='img-responsive' src="https://images.manning.com/450/600/resize//bundle/a/getting-started-with-deep-learning.png" /></a>
+                                                        </div>
+                                                    
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            
+                                
+                                
+                                
+                                    
+                                
+                            
+                        
+                        
+                            
+                                
+                                
+                                
+                                    
+                                
+                            
+                        
+                        
+                            
+                                <a href="/bundle-hub/deep-learning" class="bundles deep-learning-homepage bundle-hub-homepage-deep-learning well">
+                                    <h1>Deep Learning in a Box</h1>
+                                    <h2>Everything you need to go deep. One neat package.</h2>
+                                    <p>Deep learning is exploding, driving everything from autonomous vehicles to real-time computer vision and speech recognition. Are you ready?</p>
+<p>These six deep learning bundles include eBooks and liveVideo courses that will get you started and take you where you want to go!</p>
+                                </a>
+                                
+                                    
+                                    
+                                    
+                                        
+                                            
+                                        
+                                    
+                                    
+                                        
+                                            
+                                                
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                
+                            
+                        
+
+                        <div class="bestsellers well">
+                            <h1>Bestsellers<span class="bestsellers-date-subheading proper-name">February 10, 2019</span></h1>
+                            <ol>
+                                
+                                    <li>
+                                        <a href="/books/code-like-a-pro">
+                                            Code Like a Pro
+                                            
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/grokking-deep-learning">
+                                            Grokking Deep Learning
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/classic-computer-science-problems-in-python">
+                                            Classic Computer Science Problems in Python
+                                            
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/graph-databases-in-action">
+                                            Graph Databases in Action
+                                            
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/microservices-patterns">
+                                            Microservices Patterns
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/deep-learning-and-the-game-of-go">
+                                            Deep Learning and the Game of Go
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/practical-recommender-systems">
+                                            Practical Recommender Systems
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/web-components-in-action">
+                                            Web Components in Action
+                                            
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/math-for-programmers">
+                                            Math for Programmers
+                                            
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/elixir-in-action-second-edition">
+                                            Elixir in Action, Second Edition
+                                            
+                                        </a>
+                                    </li>
+                                
+                            </ol>
+                        </div>
+
+                        <div class="topic-box">
+                            <h1>recently published</h1>
+
+                            
+                                
+                                 <!-- we need the total items PLUS the total tags because each takes up a physical row -->
+                                
+
+                                <div class="row product-ranges">
+                                <div class="col-md-6">
+                                    
+                                        <div class="tag tag-one-in-column">Data</div>
+                                        
+
+                                        
+                                            
+
+                                            <a href="/books/beyond-spreadsheets-with-r">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Beyond Spreadsheets with
+                                                    <i class="last-word">R</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/data-wrangling-with-javascript">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Data Wrangling with
+                                                    <i class="last-word">JavaScript</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/deep-learning-and-the-game-of-go">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Deep Learning and the Game of
+                                                    <i class="last-word">Go</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/grokking-deep-learning">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Grokking Deep
+                                                    <i class="last-word">Learning</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/practical-recommender-systems">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Practical Recommender
+                                                    <i class="last-word">Systems</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/livevideo/reinforcement-learning-in-motion">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Reinforcement Learning in
+                                                    <i class="last-word">Motion<span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/livevideo/the-ultimate-introduction-to-big-data">
+                                                
+                                                <div class="title">
+                                                    
+                                                    The Ultimate Introduction to Big
+                                                    <i class="last-word">Data<span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                    
+                                        <div class="tag ">Development</div>
+                                        
+
+                                        
+                                            
+
+                                            <a href="/books/c-plus-plus-concurrency-in-action-second-edition">
+                                                
+                                                <div class="title">
+                                                    
+                                                    C++ Concurrency in Action, Second
+                                                    <i class="last-word">Edition</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/elixir-in-action-second-edition">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Elixir in Action, Second
+                                                    <i class="last-word">Edition</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/exploring-python-basics">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Exploring Python
+                                                    <i class="last-word">Basics</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/testing-microservices-with-mountebank">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Testing Microservices with
+                                                    <i class="last-word">Mountebank</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                                <!-- We are starting a new column. -->
+                                                
+                                                </div>
+                                                <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                                
+                                                    <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
+                                                
+                                            
+                                        
+                                    
+                                        <div class="tag tag-one-in-column">Devices</div>
+                                        
+
+                                        
+                                            
+
+                                            <a href="/livevideo/ios-development-with-swift-lv">
+                                                
+                                                <div class="title">
+                                                    
+                                                    iOS Development with Swift in
+                                                    <i class="last-word">Motion<span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/swift-in-depth">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Swift in
+                                                    <i class="last-word">Depth</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                    
+                                        <div class="tag ">Operations &amp; Cloud</div>
+                                        
+
+                                        
+                                            
+
+                                            <a href="/books/docker-in-practice-second-edition">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Docker in Practice, Second
+                                                    <i class="last-word">Edition</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/serverless-applications-with-node-js">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Serverless Applications with
+                                                    <i class="last-word">Node.js</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                    
+                                        <div class="tag ">R</div>
+                                        
+
+                                        
+                                            
+
+                                            <a href="/books/beyond-spreadsheets-with-r">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Beyond Spreadsheets with
+                                                    <i class="last-word">R</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                    
+                                        <div class="tag ">Web</div>
+                                        
+
+                                        
+                                            
+
+                                            <a href="/books/angular-development-with-typescript-second-edition">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Angular Development with Typescript, Second
+                                                    <i class="last-word">Edition</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/livevideo/css-in-javascript-with-styled-components-and-react">
+                                                
+                                                <div class="title">
+                                                    
+                                                    CSS in
+                                                    <i class="last-word">JavaScript<span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/get-programming-with-node-js">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Get Programming with
+                                                    <i class="last-word">Node.js</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/testing-vue-js-applications">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Testing Vue.js
+                                                    <i class="last-word">Applications</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                                <!-- We are starting a new column. -->
+                                                
+                                                </div>
+                                                <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                                
+                                                    <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
+                                                
+                                            
+                                        
+                                    
+                                </div>
+                                </div>
+                            
+
+
+                            
+                            
+                                
+                                    
+                                        
+                                    
+                                
+                                
+                                    
+                                        
+                                    
+                                
+                                
+                                    
+                                        
+                                        
+                                            
+                                        
+                                    
+                                
+                                
+                                    
+                                        
+                                        
+                                            
+                                        
+                                    
+                                
+                            
+                            
+                            
+                                
+                                    
+                                        
+                                    
+                                
+                            
+                            
+                            
+                                
+                                    
+                                    
+                                        
+                                    
+                                    
+                                        
+                                    
+                                
+                                
+                                    
+                                        
+                                    
+                                
+                            
+                        </div>
+
+                        <div class="visible-sm visible-md">
+                            
+
+
+
+
+<div class="free-content">
+    <div class="title"><a href="http://freecontent.manning.com">Free Content Center</a></div>
+
+    
+        <div class="description">Articles based on books in progress</div>
+        <div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/the-randomcutforest-algorithm/">The Random Cut Forest Algorithm</a>
+                    </div>
+                </div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/building-linear-models-with-dask-ml/">Building Linear Models with Dask ML</a>
+                    </div>
+                </div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/istio-gateway/">Istio Gateway</a>
+                    </div>
+                </div>
+            
+        </div>
+    
+</div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-7 col-md-8 hidden-sm hidden-md hidden-lg">
+                        
+
+
+
+
+<div class="free-content">
+    <div class="title"><a href="http://freecontent.manning.com">Free Content Center</a></div>
+
+    
+        <div class="description">Articles based on books in progress</div>
+        <div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/the-randomcutforest-algorithm/">The Random Cut Forest Algorithm</a>
+                    </div>
+                </div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/building-linear-models-with-dask-ml/">Building Linear Models with Dask ML</a>
+                    </div>
+                </div>
+            
+                <div class="list-item">
+                    <div class="freeContentEntry-title">
+                        <a href="https://freecontent.manning.com/istio-gateway/">Istio Gateway</a>
+                    </div>
+                </div>
+            
+        </div>
+    
+</div>
+
+                        <div class="news">
+                            <h1>News at Manning</h1>
+                            <div class="latest">
+                                MEAP updates, new products, author news
+                            </div>
+                            
+                                <div class="block-with-text brief"><b>02/21/2019</b> - Simplifying and visualizing explained in the newest modules of <a href="https://www.manning.com/livevideo/grokking-deep-learning-in-motion"><i>Grokking Deep Learning in Motion </i></a>.</div>
+                            
+                                <div class="block-with-text brief"><b>02/20/2019</b> - Two great new modules added to <a href="https://www.manning.com/livevideo/deep-learning-with-r-in-motion"><i>Deep Learning with R in Motion </i></a>.</div>
+                            
+                                <div class="block-with-text brief"><b>02/19/2019</b> - Using Neural networks is explained in the latest module in <a href="https://www.manning.com/livevideo/machine-learning-for-mere-mortals"><i>Machine Learning for Mere Mortals </i></a>.</div>
+                            
+                                <div class="block-with-text brief"><b>02/18/2019</b> - Jim Bennett, author of <a href="https://www.manning.com/books/xamarin-in-action"><i>Xamarin in Action</i></a> is the special guest of the latest episode of The .NET Core Podcast.</div>
+                            
+                                <div class="block-with-text brief"><b>02/17/2019</b> - Learn how to train reinforcement learning agents  in the newest Chapter of <a href="https://www.manning.com/books/grokking-deep-reinforcement-learning"><i>Grokking Deep Reinforcement Learning </i></a>.</div>
+                            
+                            <a href="/news" class="all-news">
+                                browse all news &raquo;
+                            </a>
+                        </div>
+                        
+<div class="twitter-box">
+    <div class="twitter-title"><a href="https://twitter.com/ManningBooks">@ManningBooks</a></div>
+    
+        
+        <div class="tweet-box">
+            <div class="tweet">
+                Deal of the Day Feb 21: CSS in JavaScript! Use code dotd022119tw at <a href='https://t.co/Pz312nbJr1'>bit.ly/2tuaXz5</a> <a href='http://www.twitter.com/SchauDustin'>@SchauDustin</a> <a href='https://twitter.com/hashtag/css?src=hash'>#css</a>… <a href='https://t.co/bzxAQN3DAu'>twitter.com/i/web/status/1…</a>
+            </div>
+            <div class="relative-time">
+                <a href="https://twitter.com/ManningBooks/status/1098598064938463233">12 minutes ago</a>
+            </div>
+        </div>
+    
+        
+        <div class="tweet-box">
+            <div class="tweet">
+                RT <a href='http://www.twitter.com/LambdaDays'>@LambdaDays</a>: Use the code "ctwlambdadays19" to get a 40% discount from our partner <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a>. Also check out your <a href='https://twitter.com/hashtag/LambdaDays?src=hash'>#LambdaDays</a> <a href='https://twitter.com/hashtag/Whova?src=hash'>#Whova</a>…
+            </div>
+            <div class="relative-time">
+                <a href="https://twitter.com/ManningBooks/status/1098593825415675904">29 minutes ago</a>
+            </div>
+        </div>
+    
+</div>
+                    </div>
+
+
+                    <div class="col-sm-5 col-md-4 visible-md visible-sm">
+                        
+<div class="twitter-box">
+    <div class="twitter-title"><a href="https://twitter.com/ManningBooks">@ManningBooks</a></div>
+    
+        
+        <div class="tweet-box">
+            <div class="tweet">
+                Deal of the Day Feb 21: CSS in JavaScript! Use code dotd022119tw at <a href='https://t.co/Pz312nbJr1'>bit.ly/2tuaXz5</a> <a href='http://www.twitter.com/SchauDustin'>@SchauDustin</a> <a href='https://twitter.com/hashtag/css?src=hash'>#css</a>… <a href='https://t.co/bzxAQN3DAu'>twitter.com/i/web/status/1…</a>
+            </div>
+            <div class="relative-time">
+                <a href="https://twitter.com/ManningBooks/status/1098598064938463233">12 minutes ago</a>
+            </div>
+        </div>
+    
+        
+        <div class="tweet-box">
+            <div class="tweet">
+                RT <a href='http://www.twitter.com/LambdaDays'>@LambdaDays</a>: Use the code "ctwlambdadays19" to get a 40% discount from our partner <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a>. Also check out your <a href='https://twitter.com/hashtag/LambdaDays?src=hash'>#LambdaDays</a> <a href='https://twitter.com/hashtag/Whova?src=hash'>#Whova</a>…
+            </div>
+            <div class="relative-time">
+                <a href="https://twitter.com/ManningBooks/status/1098593825415675904">29 minutes ago</a>
+            </div>
+        </div>
+    
+</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div role="contentinfo" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <dl>
+                            <dt>about</dt>
+                            <dd><a href="/manning">Manning</a></dd>
+                            <dd><a href="/tokens">tokens</a></dd>
+                            <dd><a href="/meap-program">MEAP</a></dd>
+                            <dd><a href="/ebooks">eBooks</a></dd>
+                            <dd><a href="/livevideo-program">liveVideo</a></dd>
+                            
+                                <dd><a href="/livebook-program">liveBook</a></dd>
+                            
+                            <dd><a href="/liveaudio-landing">liveAudio</a></dd>
+                            <dd><a href="/covers">our covers</a></dd>
+                        </dl>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <dl>
+                            <dt>info & inquiries</dt>
+                            <dd><a href="/manuscript-reviews">manuscript reviews</a></dd>
+                            <dd><a href="/user-group">user group program</a></dd>
+                            <dd><a href="/write-for-us">write for us</a></dd>
+                            <dd><a href="/academic">academic</a></dd>
+                            <dd><a href="/distributors">distributors</a></dd>
+                            <dd><a href="/careers">careers</a></dd>
+                        </dl>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <dl>
+                            <dt>help</dt>
+                            <dd><a href="/contact">contact</a></dd>
+                            <dd><a href="/freebook">register a pBook</a></dd>
+                            <dd><a href="/why-buy-from-manning">why buy from Manning?</a></dd>
+                            <dd><a href="/placing-an-order">placing an order</a></dd>
+                            <dd><a href="/shipping-and-returns">shipping & returns</a></dd>
+                            <dd><a href="/faq">faq</a></dd>
+                        </dl>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <dl>
+                            <dt>legal</dt>
+                            <dd><a href="/privacy">privacy</a></dd>
+                            <dd><a href="/terms-of-use">terms of use</a></dd>
+                            <dd><a href="/ebook-license">eBook license</a></dd>
+                            <dd><a href="/source-code">source code</a></dd>
+                            <dd><a href="/translations">translations</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6 text-right-md">
+                        
+                        <ul class="list-inline social-media-links">
+                            <li><a href="/mail-preferences" tabindex="-1"><span class="far fa-newspaper"></span>Newsletter</a>
+                            </li>
+                            <li><a href="https://www.facebook.com/ManningBooks?ref=nf" tabindex="-1"><span
+                                    class="fab fa-facebook-f"></span><span aria-hidden="true"
+                                                                        class="hidden">Manning on</span>Facebook</a>
+                            </li>
+                            <li><a href="https://twitter.com/manningbooks" tabindex="-1"><span
+                                    class="fab fa-twitter"></span><span aria-hidden="true"
+                                                                       class="hidden">Manning on</span>Twitter</a>
+                            </li>
+                            <li><a href="https://www.youtube.com/channel/UCDia_lkNYKLJVLRLQl_-pFw" tabindex="-1"><span
+                                        class="fab fa-youtube"></span><span aria-hidden="true"
+                                                                                class="hidden">Manning on</span>YouTube</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6 col-md-pull-6 text-left-md">
+                        <div id="copyright">
+                        &copy; 2019&nbsp;&nbsp;Manning Publications Co.&nbsp;&nbsp;<span
+                                class="hidden-xs">All rights reserved.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    (function(d) {
+        if (document.addEventListener) document.addEventListener('ltkAsyncListener', d);
+        else {e = document.documentElement; e.ltkAsyncProperty = 0; e.attachEvent('onpropertychange', function (e) {
+            if (e.propertyName == 'ltkAsyncProperty'){d();}});}
+    })
+    (function() {
+        _ltk.Click.Submit();
+    });
+    var biJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+    (function (d, s, id, tid, vid) {
+        var js, ljs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
+        js.src = biJsHost + "cdn.listrakbi.com/scripts/script.js?m=" + tid + "&v=" + vid;
+        ljs.parentNode.insertBefore(js, ljs);
+    })(document, 'script', 'ltkSDK', 'oSRPiytUPTkk', '1');
+</script>
+<!-- Twitter universal website tag code -->
+<script type="text/javascript">
+    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+            a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init','o04cl');
+    twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+</body>
+</html>
