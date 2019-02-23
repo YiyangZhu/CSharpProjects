@@ -14,8 +14,10 @@ namespace Chapter11
             CastInLinq.Demo();
 
             CastInLinq.Demo2();
-            */
+
             IntroJoin.Demo();
+            */
+            IntroJoin.Demo2();
 
         }
 
