@@ -8,8 +8,13 @@ namespace Chapter11
         {
             /*
             IntroLinq.Demo();
-            */
+
             IntroLinq.Demo2();
+
+            CastInLinq.Demo();
+            */
+            CastInLinq.Demo2();
+
 
         }
 
