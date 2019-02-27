@@ -18,9 +18,11 @@ namespace Chapter11
             IntroJoin.Demo();
 
             IntroJoin.Demo2();
-            */
-            CrossJoin.Demo();
 
+            CrossJoin.Demo();
+            */
+            CrossJoin.Demo2();
+        
         }
 
 
