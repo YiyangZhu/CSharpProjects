@@ -69,5 +69,45 @@ namespace Chapter14
             int count = d.Count;
             Console.WriteLine(count);
         }
+
+        public static int CountImpl<T>(ICollection<T> collection)
+        {
+            return collection.Count;
+        }
+
+        private static int CountImpl(ICollection collection)
+        {
+            return collection.Count;
+        }
+
+        private static int CountImpl(string text)
+        {
+            return text.Length;
+        }
+
+        private static int CountImpl(IEnumerable collection)
+        {
+            int count = 0;
+            foreach(object item in collection)
+            {
+                count++;
+            }
+            return count;
+        }
+
+        public static void PrintCount2(IEnumerable collection)
+        {
+            dynamic d = collection;
+            int count = CountImpl(d);
+            Console.WriteLine(count);
+        }
+
+        public static void Demo5()
+        {
+            PrintCount2(new BitArray(5));
+            PrintCount2(new HashSet<int> { 3, 5 });
+            PrintCount2("ABC");
+            PrintCount2("ABCDEF".Where(c => c > 'B'));
+        }
     }
 }

@@ -18,9 +18,10 @@ namespace Chapter14
             DynamicTyping.Demo2();
 
             DynamicTyping.Demo3();
-            */
-            DynamicTyping.Demo4();
 
+            DynamicTyping.Demo4();
+            */
+            DynamicTyping.Demo5();
         }
     }
 }
