@@ -12,8 +12,10 @@ namespace Chapter13
             OptionalParameter.Demo();
                       
             OptionalParameter.Demo2();
-            */
+
             Message.Demo();
+            */
+            GenericVariance.Demo();
         }
 
 
