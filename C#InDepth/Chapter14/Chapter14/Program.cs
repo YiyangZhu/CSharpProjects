@@ -30,8 +30,14 @@ namespace Chapter14
             DynamicOverloadResolution.Demo();
 
             DynamicOverloadResolution.Demo2();
-            */
+
             DynamicOverloadResolution.Demo3();
+
+            ImplementDynamicBehavior.Demo();
+
+            ImplementDynamicBehavior.Demo2();
+            */
+            ImplementDynamicBehavior.Demo3();
         }
     }
 }
