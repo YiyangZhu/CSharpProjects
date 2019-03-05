@@ -109,5 +109,44 @@ namespace Chapter14
             PrintCount2("ABC");
             PrintCount2("ABCDEF".Where(c => c > 'B'));
         }
+
+        public static void Execute(string x)
+        {
+            Console.WriteLine("String overload");
+        }
+
+        public static void Execute(dynamic x)
+        {
+            Console.WriteLine("Dynamic overload");
+        }
+
+        public static void Demo6()
+        {
+            dynamic text = "text";
+            Execute(text);
+            dynamic number = 10;
+            Execute(number);
+        }
+
+        public static void Execute(dynamic x, string y)
+        {
+            Console.WriteLine("dynamic, string");
+        }
+
+        public static void Execute(dynamic x, object y)
+        {
+            Console.WriteLine("dynamic, object");
+        }
+
+        public static void Demo7()
+        {
+            object text = "text";
+            dynamic d = 10;
+            Execute(d, text);
+
+            string t2 = "text";
+            dynamic d2 = 10;
+            Execute(d2, t2);
+        }
     }
 }
