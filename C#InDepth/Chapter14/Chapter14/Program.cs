@@ -10,8 +10,12 @@ namespace Chapter14
             DynamicBinding.Demo();
 
             DynamicBinding.Demo2();
-            */
+
             DynamicBinding.Demo3();
+
+            DynamicTyping.Demo();
+            */
+            DynamicTyping.Demo2();
         }
     }
 }
