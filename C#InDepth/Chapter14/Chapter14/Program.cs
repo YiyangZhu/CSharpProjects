@@ -14,8 +14,13 @@ namespace Chapter14
             DynamicBinding.Demo3();
 
             DynamicTyping.Demo();
-            */
+
             DynamicTyping.Demo2();
+
+            DynamicTyping.Demo3();
+            */
+            DynamicTyping.Demo4();
+
         }
     }
 }

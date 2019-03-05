@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -43,6 +44,30 @@ namespace Chapter14
         {
             byte[] bytes = new byte[] { 1, 2, 3 };
             Console.WriteLine(DynamicSum(bytes));
+        }
+
+        public static void Demo3()
+        {
+            var times = new List<TimeSpan>
+            {
+                new TimeSpan(2), new TimeSpan(0,25,0),new TimeSpan(0,0,30),
+                new TimeSpan(0,0,45),new TimeSpan(0,40,0)
+            };
+            Console.WriteLine(DynamicSum(times));
+        }
+
+        public static void Demo4()
+        {
+            PrintCount(new BitArray(10));
+            PrintCount(new HashSet<int> { 3, 5 });
+            PrintCount(new List<int> { 1, 2, 3 });
+        }
+
+        public static void PrintCount(IEnumerable collection)
+        {
+            dynamic d = collection;
+            int count = d.Count;
+            Console.WriteLine(count);
         }
     }
 }
