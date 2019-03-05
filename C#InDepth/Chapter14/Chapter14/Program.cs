@@ -24,8 +24,14 @@ namespace Chapter14
             DynamicTyping.Demo5();
 
             DynamicTyping.Demo6();
-            */
+
             DynamicTyping.Demo7();
+
+            DynamicOverloadResolution.Demo();
+
+            DynamicOverloadResolution.Demo2();
+            */
+            DynamicOverloadResolution.Demo3();
         }
     }
 }
