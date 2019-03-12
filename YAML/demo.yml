@@ -1,0 +1,38 @@
+person:
+	name: &name "YY"
+	occupation: "programmer"
+	age: 23
+	gpa: 3.5
+	fav_num: 1e+10
+	male: true
+	birthday: 1994-02-06 14:33:22
+	flaws: null
+	hobbies:
+		- hiking
+		- movies
+		- riding bike
+	movies: ["Dark Knight","Good Will Hunting"]
+	#list items
+	friends:
+		- name: "Steph"
+		  age: 22
+		- {name:"Adam",age:22}
+		- 
+			name: "Joe"
+			age:23
+	description: >
+		Nulla consqaat massa quis enim.
+	signature: 
+		Mike
+		YK Academy
+		email - yk@gmail.com
+	id: *name #"YY"
+
+	base: &base 
+		var1: value1
+
+	foo: 
+		<<: *base	#var1:value1
+	#force int to float, float to string
+	age1: !!float 23 #23.0
+	gpa2: !!str 3.5 #3.5

@@ -1,0 +1,10 @@
+---: --
+sample: file
+list: 
+  item 1: tem 1
+  item 2: tem 2
+items: 
+  - name: item1
+    price: 10
+  - name: item2
+    price: 20
